@@ -1,0 +1,149 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'header'
+                         'body'
+                         'footer';
+}
+
+.header
+{
+    height: 70px;
+    display: grid;
+    grid-area: header;
+    background: red;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 'logo search login'
+}
+
+.header .logo
+{
+    display: grid;
+    grid-area: logo;
+    background: red;
+}
+
+.header .search
+{
+    display: grid;
+    grid-area: search;
+    background: yellow;
+}
+
+.header .login
+{
+    display: grid;
+    grid-area: login;
+    background: blue;
+}
+
+.body
+{
+    display: grid;
+    grid-area: body;
+    background: green;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'slideshow' 'top-games';
+}
+
+.body .slideshow
+{
+    height: 300px;
+    display: grid;
+    grid-area: slideshow;
+    background: rgb(56, 102, 75);
+    grid-template-columns: auto auto;
+    grid-template-areas: 'news deal';
+}
+
+.slideshow .news
+{
+    display: grid;
+    grid-area: news;
+    background: rgb(56, 102, 75);
+}
+
+.slideshow .daily-deal
+{
+    display: grid;
+    grid-area: deal;
+    background: rgb(233, 7, 44);
+}
+
+.body .top-games
+{
+    height: 900px;
+    display: grid;
+    grid-area: top-games;
+    background: rgb(65, 163, 82);
+    grid-template-columns: auto auto;
+    grid-template-areas: 'category chart';
+}
+
+.top-games .category
+{
+    display: grid;
+    grid-area: category;
+    background: rgb(65, 163, 82);
+    grid-template-rows: 50px auto;
+    grid-template-areas: 'menu' 'body';
+}
+
+.category .cate-menu
+{
+    display: grid;
+    grid-area: menu;
+    background: rgb(65, 163, 82);
+}
+
+.category .cate-body
+{
+    display: grid;
+    grid-area: body;
+    background: rgb(217, 255, 0);
+}
+
+.top-games .top-chart
+{
+    display: grid;
+    grid-area: chart;
+    background: rgb(194, 189, 115);
+}
+
+.footer
+{
+    height: 150px;
+    display: grid;
+    grid-area: footer;
+    background: rgb(255, 196, 0);
+    grid-auto-columns: auto auto auto;
+    grid-template-areas: 'contact social copyright'
+}
+
+.footer .contact
+{
+    display: grid;
+    grid-area: contact;
+    background: rgb(119, 73, 73);
+}
+
+.footer .social
+{
+    display: grid;
+    grid-area: social;
+    background: rgb(255, 255, 255);
+}
+
+.footer .copyright
+{
+    display: grid;
+    grid-area: copyright;
+    background: rgba(207, 34, 170, 0.295);
+}

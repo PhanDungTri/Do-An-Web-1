@@ -57,6 +57,7 @@ header
 {
     position: relative;
     width: 100%;
+    box-shadow: 0px 2.5px rgba(0, 0, 0, 0.4);
 }
 
 .search-term 

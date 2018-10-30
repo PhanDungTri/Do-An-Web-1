@@ -64,3 +64,11 @@
    background: rgba(111,111,111,.0);
 }
 /*--------*/
+
+@media screen and (min-width: 1024px)
+{
+    .burger-menu
+    {
+        display: none;
+    }
+}

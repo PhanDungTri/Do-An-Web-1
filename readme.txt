@@ -9,10 +9,10 @@ Chủ đề: Thiết kế trang web BÁN GAME PC
 --------------------------------------
 
 =================================================================================
-| Chú ý:                                                                        |
-| - Commit file tử tế							          |
-| - Tạo branch khác khi làm bài, sau khi thống nhất mới merge vào branch master |
-| - Sau khi làm bài mở readme.txt ghi chú thay đổi			          |
+ Chú ý:                                                                        
+ - Commit file tử tế							          
+ - Tạo branch khác khi làm bài, sau khi thống nhất mới merge vào branch master 
+ - Sau khi làm bài mở readme.txt ghi chú thay đổi			          
 =================================================================================
 
 Nội dung:

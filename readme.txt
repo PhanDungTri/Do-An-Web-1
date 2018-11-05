@@ -19,3 +19,4 @@ Nội dung:
 11/10: - Upload phần layout lên GitHub. 
 29/10: - Thiết kế lại layout cho mobile
        - Thiết kế layout header
+05/11: - Thiết kế hiệu ứng header 

@@ -7,6 +7,12 @@
     cursor: pointer;
     grid-column: 1/2;
     grid-row: 1/2;
+    transition: 0.5s;
+}
+
+.burger-menu:hover
+{
+    background: #3E435B;
 }
 
 .burger 

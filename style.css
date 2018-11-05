@@ -47,6 +47,12 @@ header
 {
     text-decoration: none;
     color: white;
+    transition: 0.5s;
+}
+
+.cart a i:hover
+{
+    color: #BFC0C0;
 }
 
 .wrap
@@ -93,11 +99,31 @@ header
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-btn:active
+{
+    border: 1px solid #3B1647;
+    background: #3B1647;
 }
 
 .login
 {
     display: none;
+    transition: 0.5s;
+}
+
+.login:hover
+{
+    background: #3E435B;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.login:active
+{
+    box-shadow: 0px 0px rgba(0, 0, 0, 0);
 }
 
 .login-btn
@@ -106,13 +132,13 @@ header
     text-decoration: none;
     color: white;
     padding-left: 20px;
-    padding-right: 20px;  
+    padding-right: 20px;
+    font-size: 1.3em;  
 }
 
 .login-btn i.fa.fa-user
 {
     padding-right: 5px;
-    font-size: 1.5em;
 }
 
 /*Tablet*/

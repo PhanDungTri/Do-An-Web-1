@@ -9,9 +9,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="burger_menu.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="search_bar.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="slideshow.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="burger_menu.js"></script>
+    <script src="slideshow.js"></script>
 </head>
 
 <!--Header-->
@@ -38,7 +40,37 @@
 
 <!--Body-->
 <body>
-    
+    <!--Slideshow-->
+    <div id="slide-show">
+        <div id="slide-wrapper">
+            <div class="slide">
+                <img src="https://via.placeholder.com/640x480.png/A0D546">
+                <div class="caption-text">Caption</div>
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/640x480.png/F4A153">
+                <div class="caption-text">Caption</div>
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/640x480.png/48AAD4">
+                <div class="caption-text">Caption</div>
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/640x480.png/F56FF8">
+                <div class="caption-text">Caption</div>
+            </div>
+      
+            <a class="prev">&#10094;</a>
+            <a class ="next">&#10095;</a>
+        </div>
+        <br> 
+        <div class="dot-btn">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
 </body>
 
 <!--Footer-->

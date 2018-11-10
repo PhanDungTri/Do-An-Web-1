@@ -46,14 +46,14 @@
 	border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev:active, .next:active {
 	background-color: rgba(116, 43, 140, 0.8);
 }
 
 .caption-text {
 	background: rgba(0,0,0,0.4);
 	color: #f2f2f2;
-	font-size: 5vw;
+	font-size: 4vw;
 	position: absolute;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
@@ -83,4 +83,11 @@
 
 .active, .dot:hover {
 	background-color: #762c8e;
+}
+
+@media screen and (min-width: 1024px)
+{
+	.prev:hover, .next:hover {
+		background-color: rgba(116, 43, 140, 0.8);
+	}
 }

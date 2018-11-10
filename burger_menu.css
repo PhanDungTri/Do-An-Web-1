@@ -8,9 +8,10 @@
     grid-column: 1/2;
     grid-row: 1/2;
     transition: 0.5s;
+    outline: none;
 }
 
-.burger-menu:hover
+.burger-menu:active
 {
     background: #3E435B;
 }

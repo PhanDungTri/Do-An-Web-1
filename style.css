@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
+*{outline: none}
+
 body
 {
     margin: 0;
@@ -35,17 +37,13 @@ header
 {
     grid-column: 3/4;
     grid-row: 1/2;
-    padding: 10px;
-}
-
-.cart a
-{
+    padding: 18px;
     text-decoration: none;
     color: white;
     transition: 0.5s;
 }
 
-.cart:hover
+.cart:active
 {
     background: #3E435B;
 }

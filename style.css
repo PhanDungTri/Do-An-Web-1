@@ -8,15 +8,9 @@ body
     background: white;
 }
 
-.grid
-{
-    display: grid;
-}
-
 header
 {
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.5 !important;
+    display: grid;
     grid-template-columns: 50px auto 50px;
     grid-template-rows: 50px 37px;
     justify-items: center;
@@ -85,6 +79,17 @@ header
 .login-btn i.fa.fa-user
 {
     padding-right: 5px;
+}
+
+.body
+{
+    display: grid;
+    grid-template-rows: 267px auto;
+}
+
+.spotlight
+{
+    grid-row: 2/3;
 }
 
 /*Tablet*/

@@ -1,6 +1,7 @@
 .slideshow
 {
 	margin-top: 2.5px;
+	grid-row: 1/2
 }
 
 #slide-wrapper
@@ -58,6 +59,10 @@
 	bottom: 0px;
 	width: 100%;
 	padding-left: 10px;
+}
+
+.dot-btn {
+	background: #2D3142;
 }
 
 .dot {

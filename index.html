@@ -10,72 +10,97 @@
     <link rel="stylesheet" type="text/css" media="screen" href="burger_menu.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="search_bar.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="slideshow.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="spotlight.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="burger_menu.js"></script>
     <script src="slideshow.js"></script>
 </head>
 
-<!--Header-->
-<header class="grid">
-    <div class="burger-menu">
-        <div class="burger"></div>  
-      </div>
-    <div class="logo">
-        <img id="logo-img" src="Images/gamehub.png" alt="GameHub Logo">
-    </div>
-    <div class="cart">
-        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-    </div>
-    <div class="wrap">
-        <div class="search-bar">
-            <input type="text" class="search-term" placeholder="What are you looking for?">
-            <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>  
-        </div>
-    </div>
-    <div class="login">
-        <a class="login-btn" href="#"><i class="fa fa-user"></i> sign in</a>
-    </div>
-</header>
-
-<!--Body-->
 <body>
-    <!--Slide Show-->
-    <div class="slideshow">
-        <div id="slide-wrapper">
-            <div class="slide">
-              <img src="https://via.placeholder.com/640x480.png/A0D546">
-              <div class="caption-text">Caption</div>
-            </div>
-            <div class="slide">
-              <img src="https://via.placeholder.com/640x480.png/F4A153">
-              <div class="caption-text">Caption</div>
-            </div>
-            <div class="slide">
-              <img src="https://via.placeholder.com/640x480.png/48AAD4">
-              <div class="caption-text">Caption</div>
-            </div>
-            <div class="slide">
-              <img src="https://via.placeholder.com/640x480.png/F56FF8">
-              <div class="caption-text">Caption</div>
-            </div>
-          
-            <a class="prev">&#10094;</a>
-            <a class ="next">&#10095;</a>
+    <!--Header-->
+    <header>
+        <div class="burger-menu">
+            <div class="burger"></div>  
+          </div>
+        <div class="logo">
+            <img id="logo-img" src="Images/gamehub.png" alt="GameHub Logo">
         </div>
-        <div class="dot-btn">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+        <div class="cart">
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="wrap">
+            <div class="search-bar">
+                <input type="text" class="search-term" placeholder="What are you looking for?">
+                <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>  
+            </div>
+        </div>
+        <div class="login">
+            <a class="login-btn" href="#"><i class="fa fa-user"></i> sign in</a>
+        </div>
+    </header>
+
+    <!--Body-->
+    <div class="body">
+
+        <!--Slide Show-->
+        <div class="slideshow">
+            <div id="slide-wrapper">
+                <div class="slide">
+                <img src="https://via.placeholder.com/768x240.png/A0D546">
+                <div class="caption-text">Caption</div>
+                </div>
+                <div class="slide">
+                <img src="https://via.placeholder.com/768x240.png/F4A153">
+                <div class="caption-text">Caption</div>
+                </div>
+                <div class="slide">
+                <img src="https://via.placeholder.com/768x240.png/48AAD4">
+                <div class="caption-text">Caption</div>
+                </div>
+                <div class="slide">
+                <img src="https://via.placeholder.com/768x240.png/F56FF8">
+                <div class="caption-text">Caption</div>
+                </div>
+          
+                <a class="prev">&#10094;</a>
+                <a class ="next">&#10095;</a>
+            </div>
+            <div class="dot-btn">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <!--Spotlight-->
+        <div id="spotlight">
+            <p id="spotlight-title"><i class="fa fa-star"></i> Spotlight</p>
+            <div id="showcase-wrapper">
+                <div class="showcase">
+                    <img src="https://via.placeholder.com/768x240.png">
+                    <div class="product-name">name</div>
+                    <a href="#" class="btn-read-more">Buy now</a>
+                </div>
+                <div class="showcase">
+                        <img src="https://via.placeholder.com/768x240.png">
+                        <div class="product-name">name</div>
+                        <a href="#" class="btn-read-more">Buy now</a>
+                </div>
+                <div class="showcase">
+                        <img src="https://via.placeholder.com/768x240.png">
+                        <div class="product-name">name</div>
+                        <a href="#" class="btn-read-more">Buy now</a>
+                </div>
+            </div>            
         </div>
     </div>
+    
+    <!--Footer Tuấn-->
+    <footer>
 
-    <!--Menu Vũ-->
+    </footer>
 </body>
 
-<!--Footer Tuấn-->
-<footer>
-
-</footer>
 </html>

@@ -35,6 +35,7 @@ header
 {
     grid-column: 3/4;
     grid-row: 1/2;
+    padding: 10px;
 }
 
 .cart a
@@ -44,9 +45,9 @@ header
     transition: 0.5s;
 }
 
-.cart a i:hover
+.cart:hover
 {
-    color: #BFC0C0;
+    background: #3E435B;
 }
 
 .login
@@ -84,7 +85,7 @@ header
 .body
 {
     display: grid;
-    grid-template-rows: 267px auto;
+    grid-template-rows: calc(56.25vw + 27px) auto;
 }
 
 .spotlight

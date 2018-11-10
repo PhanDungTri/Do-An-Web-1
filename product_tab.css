@@ -1,0 +1,50 @@
+#tab
+{
+    grid-row: 3/4;
+}
+
+.tab-wrapper
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+.tab-btn
+{
+    cursor: pointer;
+    float: left;
+    background: white;
+    padding: 15px;
+    border: 1px solid #BFC0C0;
+    border-top: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tab-btn#popular-btn
+{
+    border-left: none;
+}
+
+.tab-btn#newest-btn
+{
+    border-right: none;
+}
+
+.content-wrapper
+{
+    position: relative;
+}
+
+.tab-content
+{
+    position: absolute;
+    display: none;
+}
+
+.active
+{
+    background: #762C8E;
+    color: white;
+}

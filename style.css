@@ -92,7 +92,7 @@ header
 .body
 {
     display: grid;
-    grid-template-rows: calc(56.25vw + 27px) auto;
+    grid-template-rows: calc(56.25vw + 27px) auto auto;
 }
 
 .spotlight

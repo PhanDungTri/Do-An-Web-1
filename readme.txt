@@ -12,7 +12,9 @@ Chủ đề: Thiết kế trang web BÁN GAME PC
  Chú ý:                                                                        
  - Commit file tử tế							          
  - Tạo branch khác khi làm bài, sau khi thống nhất mới merge vào branch master 
- - Sau khi làm bài mở readme.txt ghi chú thay đổi			          
+ - Sau khi làm bài mở readme.txt ghi chú thay đổi
+ - Tỉ lệ hình của slideshow là 19:6
+ - Tỉ lệ hình của spotlight là 8:5			          
 =================================================================================
 
 Nội dung:
@@ -22,3 +24,4 @@ Nội dung:
 05/11: - Thiết kế hiệu ứng header 
 10/11: - Thiết kế slideshow
        - Thiết kế spotlight
+       - Chỉnh sửa tính năng Responsive

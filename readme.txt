@@ -21,3 +21,4 @@ Nội dung:
        - Thiết kế layout header
 05/11: - Thiết kế hiệu ứng header 
 10/11: - Thiết kế slideshow
+       - Thiết kế spotlight

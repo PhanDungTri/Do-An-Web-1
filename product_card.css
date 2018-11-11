@@ -1,0 +1,35 @@
+.product-card{
+    position: relative;
+    width: 37.5vw;
+    height: 56.25vw;
+    float: left;
+    margin: 4.5vw;
+    border: 1px solid #BFC0C0;
+    text-decoration: none;
+    box-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.4);
+}
+
+.product-card img{
+    width: 100%
+}
+
+.content-product-name
+{
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 4vw;
+    background: rgba(0,0,0,0.8);
+    bottom: 18.75vw;
+    filter: blur();
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content-product-price
+{
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 5vw;
+}

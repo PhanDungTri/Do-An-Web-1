@@ -33,11 +33,10 @@
     font-weight: bold;
 }
 
-.product-name
+.product-info
 {
     background: rgba(0,0,0,0.4);
 	color: #f2f2f2;
-	font-size: 18px;
 	position: absolute;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -46,15 +45,32 @@
 	padding-left: 10px;
 }
 
+.product-name
+{
+    font-size: 15px;
+    position: relative;
+}
+
+.product-price
+{
+    font-size: 18px;
+    position: relative;
+}
+
+.product-price sup
+{
+    font-size: 10px;
+}
+
 .btn-read-more
 {
     color: #f2f2f2;
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
     background: #762C8E;
 	position: absolute;
     padding: 10px;
-    line-height: 47px;
+    line-height: 69.5px;
     bottom: 0px;
     right: 0;
 	padding-right: 10px;

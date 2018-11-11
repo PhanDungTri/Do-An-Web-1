@@ -10,6 +10,7 @@
 }
 
 .product-card img{
+    position: relative;
     width: 100%
 }
 
@@ -28,6 +29,7 @@
 
 .content-product-price
 {
+    position: relative;
     color: black;
     font-weight: bold;
     margin: 10px;
@@ -36,6 +38,7 @@
 
 .content-product-price sup
 {
+    position: relative;
     font-size: 3vw;
 }
 

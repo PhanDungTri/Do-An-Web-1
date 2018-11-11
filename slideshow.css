@@ -1,5 +1,6 @@
 #slide-wrapper
 {
+	position: relative;
 	width: 100%;
 	height: 56.25vw;
 	position: relative;
@@ -7,6 +8,7 @@
 
 #slide-wrapper .slide img
 {
+	position: relative;
 	width: 100%;
 	height: 100%;
 }
@@ -57,6 +59,7 @@
 }
 
 .dot-btn {
+	position: relative;
 	background: #2D3142;
 }
 

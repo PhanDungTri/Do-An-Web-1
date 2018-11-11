@@ -1,5 +1,6 @@
 .tab-wrapper
 {
+    position: relative;
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
@@ -7,6 +8,7 @@
 
 .tab-btn
 {
+    position: relative;
     cursor: pointer;
     float: left;
     background: white;

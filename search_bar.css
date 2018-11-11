@@ -1,5 +1,6 @@
 .wrap
 {
+    position: relative;
     width: 100%;
     grid-column: 1/4;
     grid-row: 2/3;

@@ -12,13 +12,14 @@ body
 
 header
 {
+    position: relative;
     display: grid;
     grid-template-columns: 50px auto 50px;
     grid-template-rows: 50px 37px;
     justify-items: center;
     align-items: center;
     background: #2D3142;
-    z-index: 999;
+    z-index: 3;
 }
 
 .logo
@@ -95,31 +96,37 @@ header
     position: relative;
     display: grid;
     grid-template-rows: calc(56.25vw + 27px) auto auto;
+    z-index: 2;
 }
 
 #slideshow
 {
+    position: relative;
 	margin-top: 2.5px;
 	grid-row: 1/2
 }
 
 #spotlight
 {
+    position: relative;
     grid-row: 2/3;
     overflow: hidden;
 }
 
 #tab
 {
+    position: relative;
     grid-row: 3/4;
     overflow: hidden;
 }
 
 footer
 {
+    position: relative;
     display: grid;
     grid-template-rows: auto auto auto auto;
     background: #2D3142;
+    z-index: 1;
 }
 
 #payment-logo

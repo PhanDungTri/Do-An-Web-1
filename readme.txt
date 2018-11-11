@@ -27,3 +27,6 @@ Nội dung:
        - Chỉnh sửa tính năng Responsive
 11/11  - Thiết kế logo Github
        - Thiết kế hình cho Slideshow
+       - Thiết kế Thẻ sản phẩm
+       - Thiết kế Footer
+       - Thêm hiệu ứng Sticky Header

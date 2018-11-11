@@ -95,12 +95,35 @@ header
     grid-template-rows: calc(56.25vw + 27px) auto auto;
 }
 
-.spotlight
+#slideshow
 {
-    grid-row: 2/3;
+	margin-top: 2.5px;
+	grid-row: 1/2
 }
 
-/*Tablet*/
+#spotlight
+{
+    grid-row: 2/3;
+    overflow: hidden;
+}
+
+#tab
+{
+    grid-row: 3/4;
+    overflow: hidden;
+}
+
+footer
+{
+    background: #2D3142;
+}
+
+#payment-logo
+{
+    color: white;
+}
+
+/*Tablet & Desktop*/
 @media screen and (min-width: 1024px)
 {
     header

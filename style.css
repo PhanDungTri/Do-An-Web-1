@@ -18,6 +18,7 @@ header
     justify-items: center;
     align-items: center;
     background: #2D3142;
+    z-index: 999;
 }
 
 .logo
@@ -91,6 +92,7 @@ header
 
 .body
 {
+    position: relative;
     display: grid;
     grid-template-rows: calc(56.25vw + 27px) auto auto;
 }

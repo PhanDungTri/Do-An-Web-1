@@ -25,3 +25,5 @@ Nội dung:
 10/11: - Thiết kế slideshow
        - Thiết kế spotlight
        - Chỉnh sửa tính năng Responsive
+11/11  - Thiết kế logo Github
+       - Thiết kế hình cho Slideshow

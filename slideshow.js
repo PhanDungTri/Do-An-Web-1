@@ -3,6 +3,8 @@ $(document).ready(function(){
 	$(".dot").eq(slideIndex).addClass("active");
 	$(".slide").eq(slideIndex).fadeIn(300);
 
+	setInterval(function(){ moveSlides(1) }, 3000);
+
 	$(".dot").click(function()
 	{
 		let i = $(".dot").index(this);

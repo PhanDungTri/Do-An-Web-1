@@ -151,6 +151,11 @@ footer
     border-top: 1px solid white;
 }
 
+.footer-option:active
+{
+    text-decoration: underline;
+}
+
 #social-media
 {
     grid-row: 3/4;

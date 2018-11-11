@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    $("#popular").show("fast");
+    $("#popular").fadeIn("fast");
     $("#popular-btn").addClass("active");
 
     function showContent(content){
-        $(content).siblings().hide("fast", function(){
-            $(content).show("fast");
+        $(content).siblings().fadeOut("fast", function(){
+            $(content).fadeIn("fast");
         });
     }
 

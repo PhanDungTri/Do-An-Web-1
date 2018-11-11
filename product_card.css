@@ -33,3 +33,9 @@
     margin: 10px;
     font-size: 5vw;
 }
+
+.content-product-price sup
+{
+    font-size: 3vw;
+}
+

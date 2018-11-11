@@ -49,3 +49,26 @@
     background: #762C8E;
     color: white;
 }
+
+.btn-view-more
+{
+    text-decoration: none;
+    color: black;
+    font-size: 5.625vw;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1.5625vw;
+    padding-left: 9.375vw;
+    padding-right: 9.375vw;
+    border-radius: 6.25vw;
+    border: 2px solid #762C8E;
+    margin-bottom: 10px;
+}
+
+.btn-view-more:active{
+    background: #762C8E;
+    color: white;
+}

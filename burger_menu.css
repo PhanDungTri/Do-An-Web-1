@@ -1,4 +1,37 @@
-/*Burger menu style*/
+.blur
+{
+    filter: blur(20px);
+}
+
+.header-menu
+{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    position: relative;
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+
+.header-menu a
+{
+    width: 100%;
+    font-size: 5vw;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+.header-menu a:active
+{
+    text-decoration: underline;
+}
+
+.btn-login
+{
+    background: #762C8E;
+}
+
 .burger-menu 
 {
     position: relative;

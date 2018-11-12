@@ -15,8 +15,7 @@ header
     position: relative;
     display: grid;
     grid-template-columns: 50px auto 50px;
-    grid-template-rows: 50px 37px;
-    justify-items: center;
+    grid-template-rows: 50px 37px auto;
     align-items: center;
     background: #2D3142;
     z-index: 3;
@@ -31,6 +30,8 @@ header
 .logo img
 {
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     padding-top: 10px;
     height: 50px;
 }
@@ -61,7 +62,10 @@ header
 
 .login
 {
+    position: relative;
     display: none;
+    text-align: center;
+    margin: 10px;
     transition: 0.5s;
 }
 
@@ -97,6 +101,7 @@ header
     display: grid;
     grid-template-rows: calc(56.25vw + 27px) auto auto;
     z-index: 2;
+    transition: 0.5s;
 }
 
 #slideshow
@@ -127,6 +132,7 @@ footer
     grid-template-rows: auto auto auto auto;
     background: #2D3142;
     z-index: 1;
+    transition: 0.5s;
 }
 
 #payment-logo

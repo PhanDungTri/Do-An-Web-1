@@ -80,3 +80,11 @@
         padding-right: 6vw;
     }
 }
+
+@media screen and (min-width: 1024px)
+{
+    #tab
+    {
+        display: none;
+    }
+}

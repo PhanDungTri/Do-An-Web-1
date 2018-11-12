@@ -7,6 +7,7 @@
     border: 1px solid #BFC0C0;
     text-decoration: none;
     box-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.4);
+    background: white;
 }
 
 .product-card img{
@@ -64,5 +65,57 @@
     .content-product-price sup 
     {
         font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .product-card
+    {
+        width: 210px;
+        height: 280px;
+        margin: 16px;
+    }
+
+    .content-product-name
+    {
+        font-size: 15px;
+        bottom: 70px;
+    }
+
+    .content-product-price
+    {
+        font-size: 17px;
+    }
+
+    .content-product-price sup 
+    {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+    .product-card
+    {
+        width: 270px;
+        height: 360px;
+        margin: 16px;
+    }
+
+    .content-product-name
+    {
+        font-size: 18px;
+        bottom: 84px;
+    }
+
+    .content-product-price
+    {
+        font-size: 20px;
+    }
+
+    .content-product-price sup 
+    {
+        font-size: 12px;
     }
 }

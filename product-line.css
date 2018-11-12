@@ -1,0 +1,49 @@
+#product-wrapper
+{
+    position: relative;
+    margin: 20px;
+}
+
+.main-line
+{
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-line .title
+{
+    border-bottom: 2px solid black;
+}
+
+.product-line
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+}
+
+.loadmore-btn
+{
+    text-decoration: none;
+    color: #762C8E;
+    width: 100%;
+    text-align:  center;
+    border: 2px solid #762C8E;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.loadmore-btn:hover
+{
+    background: #762C8E;
+    color: white;
+}
+
+.loadmore-btn:active
+{
+    background: #3B1647;
+}

@@ -28,3 +28,4 @@ Nội dung:
 11/11  - Thiết kế logo Github
        - Thiết kế hình cho Slideshow
 12/11  - Thiết kế trang đăng nhập cho người sử dụng
+       - Liên kết trang index tới trang UserLogin

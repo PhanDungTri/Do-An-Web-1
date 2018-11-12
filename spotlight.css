@@ -21,11 +21,7 @@
 
 #spotlight-title
 {
-    position: relative;
-    font-size: 4vw;
-    padding-left: 10px; 
-    text-transform: uppercase;
-    font-weight: bold;
+    display: block;
 }
 
 .product-info

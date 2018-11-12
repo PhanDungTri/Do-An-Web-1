@@ -84,6 +84,21 @@
 
 @media screen and (min-width: 1024px)
 {
+    #slide-wrapper
+    {
+        max-height: 432px;
+	}
+	
+	.prev, .next
+	{
+		font-size: 39px;
+	}
+
+	.caption-text
+	{
+		font-size: 31px;
+	}
+
 	.prev:hover, .next:hover {
 		background-color: rgba(116, 43, 140, 0.8);
 	}

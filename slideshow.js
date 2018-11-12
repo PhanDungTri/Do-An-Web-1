@@ -36,5 +36,9 @@ $(document).ready(function(){
 		$(".slide").eq(slideIndex).siblings(".slide").fadeOut(300,function(){
 			$(".slide").eq(slideIndex).fadeIn(300);
 		});
+		
+		/*var img = $(".slide").eq(slideIndex).children("img").attr("src");
+		var url = "url(" + img + ")";
+		$(".trend-container").css("background-image", url);*/
 	}
 })

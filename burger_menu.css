@@ -1,6 +1,6 @@
-.blur
+.lost-focus
 {
-    filter: blur(20px);
+    filter: opacity(25%);
 }
 
 .header-menu

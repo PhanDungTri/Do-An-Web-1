@@ -84,11 +84,6 @@
 
 @media screen and (min-width: 1024px)
 {
-    #slide-wrapper
-    {
-        max-height: 432px;
-	}
-	
 	.prev, .next
 	{
 		font-size: 39px;

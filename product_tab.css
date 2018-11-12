@@ -39,6 +39,7 @@
     position: relative;
     width: 100%;
     display: none;
+    justify-content: center;
 }
 
 .active
@@ -68,4 +69,14 @@
 .btn-view-more:active{
     background: #762C8E;
     color: white;
+}
+
+@media screen and (min-width: 600px)
+{
+    .btn-view-more
+    {
+        font-size: 4vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
 }

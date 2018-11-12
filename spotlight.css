@@ -79,4 +79,27 @@
     {
         background: #3B1647;
     }
+
+    #showcase-wrapper
+    {
+        justify-content: center;
+    }
+
+    .showcase
+    {
+        width: 320px;
+        height: 200px;
+        margin: 2.5px;
+        float: left;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+    .showcase
+    {
+        width: 400px;
+        height: 250px;
+    }
 }

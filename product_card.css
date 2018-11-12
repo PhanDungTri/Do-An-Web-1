@@ -22,7 +22,6 @@
     font-size: 4vw;
     background: rgba(0,0,0,0.8);
     bottom: 18.75vw;
-    filter: blur();
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -42,3 +41,28 @@
     font-size: 3vw;
 }
 
+@media screen and (min-width: 600px)
+{
+    .product-card
+    {
+        width: 25vw;
+        height: 37.5vw;
+        margin: 3.5vw;
+    }
+
+    .content-product-name
+    {
+        font-size: 2.5vw;
+        bottom: 12.5vw;
+    }
+
+    .content-product-price
+    {
+        font-size: 3vw;
+    }
+
+    .content-product-price sup 
+    {
+        font-size: 1.5vw;
+    }
+}

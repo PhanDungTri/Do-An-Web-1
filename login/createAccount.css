@@ -1,0 +1,68 @@
+
+body {
+  background:url(../Images/loginwallpaper.jpg) ;	
+}
+
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.form-create {
+  max-width: 380px;
+  border-radius: 10px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+}
+ .logo {
+    object-fit: contain;
+    width:320px;
+    height:100px;
+	}
+  .password{
+    text-align: left;
+  }
+	.checkbox {
+    font-weight: normal;
+    padding-left: 22px;
+	}
+  .create-account
+  {
+    margin-top:75px;
+    margin-bottom: 14px;
+  }
+	.form-control {
+    position: relative;
+    margin-bottom: 20px;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+	}
+
+	input[type="text"] {
+	  border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+  }
+  .new-account   {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    
+  }
+  #name
+  {
+    max-width: 150px;
+  }
+
+ 
+}

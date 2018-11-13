@@ -11,3 +11,11 @@
     margin-top: 87px;
 }
 
+@media screen and (min-width: 1024px)
+{
+    .body
+    {
+        margin-top: 114px;
+    }
+}
+

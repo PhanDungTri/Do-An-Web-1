@@ -32,3 +32,6 @@ Nội dung:
        - Thêm hiệu ứng Sticky Header
 12/11  - Thiết kế trang đăng nhập cho người sử dụng
        - Liên kết trang index tới trang UserLogin
+       - Liên kết trang UserLogin tới trang CreateAccount
+       - Thiết kế trang đăng nhập cho Admin
+	

@@ -34,4 +34,7 @@ Nội dung:
        - Liên kết trang index tới trang UserLogin
        - Liên kết trang UserLogin tới trang CreateAccount
        - Thiết kế trang đăng nhập cho Admin
+13/11: - Hoàn tất trang chủ
+       - Thiết kế trang sản phẩm
+       - Thêm hình đại diện sản phẩm
 	

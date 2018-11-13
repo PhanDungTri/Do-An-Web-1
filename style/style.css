@@ -26,6 +26,7 @@ body
     grid-row: 1/2;
     display: grid;
     grid-template-columns: auto;
+    overflow: hidden;
 }
 
 #daily-deal

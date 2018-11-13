@@ -25,6 +25,28 @@
     text-decoration: underline;
 }
 
+#category
+{
+    transition: 0.5s;
+}
+
+.chosen
+{
+    background: #3E435B;
+}
+
+.sub-menu
+{
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+}
+
+.sub-menu a
+{
+    font-size: 4vw;
+    padding-left: 20px;
+}
+
 .burger-menu-icon 
 {
     position: relative;

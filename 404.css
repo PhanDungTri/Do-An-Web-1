@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+*{outline: none}
+
+body
+{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
+    background: #762C8E;
+}
+
+.eror-404
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+}
+
+.eror-404 div img
+{
+    width: 20vw;
+}
+
+.eror-404 div
+{
+    font-size: 25vw;
+}

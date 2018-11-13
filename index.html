@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="Images/gamehublogo.png" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="footer.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="burger_menu.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="search_bar.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="slideshow.css" />
@@ -18,6 +20,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="sticky.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="header_menu.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="product-line.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="common-style.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="burger_menu.js"></script>
@@ -30,14 +33,14 @@
     <header class="sticky">
         <!--Header Menu-->
         <div class="header-menu">
-            <a href="#">Category</a>
-            <a href="#">Daily Deals</a>
-            <a href="#">Feedback</a>
-            <a class="btn-login" href="#">Login</a>
+            <a href="#" class="pretty-anchor">Category</a>
+            <a href="#" class="pretty-anchor">Daily Deals</a>
+            <a href="#" class="pretty-anchor">Feedback</a>
+            <a class="purple-btn" href="#">Login</a>
         </div>
 
         <!--Burger Menu Icon-->
-        <div class="burger-menu">
+        <div class="burger-menu-icon">
             <div class="burger"></div>  
           </div>
 
@@ -47,21 +50,21 @@
         </div>
 
         <!--Shopping Cart Icon-->
-        <a class="cart" href="#">
+        <a class="cart-icon pretty-anchor" href="#">
             <div><i class="fa fa-shopping-cart"></i></div>
         </a>
 
         <!--Search Bar-->
-        <div class="wrap">
+        <div class="search-bar-wrapper">
             <div class="search-bar">
                 <input type="text" class="search-term" placeholder="What are you looking for?">
-                <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>  
+                <button type="submit" class="search-btn purple-btn"><i class="fa fa-search"></i></button>  
             </div>
         </div>
 
         <!--Login Button (Desktop)-->
-        <a class="login">
-            <div class="login-btn" href="#"><i class="fa fa-user"></i> sign in</div>
+        <a class="login-wrapper">
+            <div class="login-btn pretty-anchor" href="#"><i class="fa fa-user"></i> sign in</div>
         </a>
     </header>
 
@@ -71,33 +74,33 @@
         <div class="trend-container">
             <!--Slide Show-->
             <div id="slideshow">
-            <div id="slide-wrapper">
-                <a class="slide" href="#">
-                    <img src="Images/slideshow/blackfriday.jpg">
-                    <div class="caption-text">Black Friday 2018</div>
-                </a>
-                <a class="slide">
-                    <img src="Images/slideshow/christmas.jpg">
-                    <div class="caption-text">Winter Game Season</div>
-                </a>
-                <a class="slide" href="#">
-                    <img src="Images/slideshow/friday13.jpg">
-                    <div class="caption-text">Friday 13th</div>
-                </a>
-                <a class="slide" href="#">
-                    <img src="Images/slideshow/ghostrecon.jpg">
-                    <div class="caption-text">Ghost Recon</div>
-                </a>
-          
-                <a class="prev">&#10094;</a>
-                <a class ="next">&#10095;</a>
-            </div>
-            <div class="dot-btn">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
+                <div id="slide-wrapper">
+                    <a class="slide" href="#">
+                        <img src="Images/slideshow/blackfriday.jpg">
+                        <div class="caption-text">Black Friday 2018</div>
+                    </a>
+                    <a class="slide">
+                        <img src="Images/slideshow/christmas.jpg">
+                        <div class="caption-text">Winter Game Season</div>
+                    </a>
+                    <a class="slide" href="#">
+                        <img src="Images/slideshow/friday13.jpg">
+                        <div class="caption-text">Friday 13th</div>
+                    </a>
+                    <a class="slide" href="#">
+                        <img src="Images/slideshow/ghostrecon.jpg">
+                        <div class="caption-text">Ghost Recon</div>
+                    </a>
+            
+                    <a class="prev-btn">&#10094;</a>
+                    <a class ="next-btn">&#10095;</a>
+                </div>
+                <div class="dot-btn">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
             </div>
 
             <!--Daily Deal-->
@@ -116,7 +119,7 @@
                         <div class="product-name">Red Dead Redemption 2</div>
                         <div class="product-price">59.99$ <sup>HOT</sup></div> 
                     </div>
-                    <a href="#" class="btn-read-more">Buy now</a>
+                    <a href="#" class="buy-now-btn purple-btn">Buy now</a>
                 </div>
                 <div class="showcase">
                         <img src="https://blog.us.playstation.com/wp-content/uploads/2018/06/June-11-230pm-Assassins-Creed-Odyssey-lead-image.jpg">
@@ -124,7 +127,7 @@
                             <div class="product-name">Assassins Creed: Odyssey</div>
                             <div class="product-price">42.57$ <sup></sup></div> 
                         </div>
-                        <a href="#" class="btn-read-more">Buy now</a>
+                        <a href="#" class="buy-now-btn purple-btn">Buy now</a>
                 </div>
                 <div class="showcase">
                         <img src="https://attackofthefanboy.com/wp-content/uploads/2018/08/fallout-76-helmet-logo-green-attack-of-the-fanboy.jpg">
@@ -132,7 +135,7 @@
                             <div class="product-name">Fallout 76</div>
                             <div class="product-price">79.99$ <sup>Pre-Order</sup></div> 
                         </div>
-                        <a href="#" class="btn-read-more">Buy now</a>
+                        <a href="#" class="buy-now-btn purple-btn">Buy now</a>
                 </div>
             </div>            
         </div>
@@ -177,7 +180,7 @@
                         <div class="content-product-price">6.88$ <sup></sup></div>
                     </a>
 
-                    <a class="btn-view-more" id="view-more-pop" href="#">View More</a>
+                    <a class="view-more-btn" id="view-more-pop" href="#">View More</a>
                 </div>
 
                 <div class="tab-content" id="newest">
@@ -212,15 +215,23 @@
                         <div class="content-product-price">21.72$ <sup></sup></div>
                     </a>
 
-                    <a class="btn-view-more" id="view-more-new" href="#">View More</a>
+                    <a class="view-more-btn" id="view-more-new" href="#">View More</a>
                 </div>
             </div>
         </div>
 
-        <!--Products Showcase-->
-        <div id="product-wrapper">
-            <div class="main-line">
+        <!--Products Showcase Line-->
+        <div id="product-line-wrapper">
+            <div class="line-wrapper">
                 <div class="title">Popular</div>
+                <a class="highlight" href="#">
+                    <img src="https://i.imgur.com/kxLhRCE.jpg">
+                    <div class ="product-info">
+                            <div class="product-name">Grand Theft Auto V</div>
+                            <div class="product-price">19.74$ <sup></sup></div>
+                    </div>
+                    <div class="more-btn purple-btn">More</div>
+                </a>
                 <div class="product-line">
                     <a class="product-card" href="#">
                         <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
@@ -228,100 +239,124 @@
                         <div class="content-product-price">26.95$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://img.purch.com/r/340x340/aHR0cDovL21lZGlhLmJlc3RvZm1pY3JvLmNvbS9JL1ovNzY0MDI3L29yaWdpbmFsLzcxZlZnakh3OHlMLl9BQ19TTDEwMjRfLmpwZw==">
+                        <div class="content-product-name">God Of War</div>
+                        <div class="content-product-price">39.99$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://images.g2a.com/newlayout/470x470/1x1x0/0fc2c84aec63/5b6d86c55bafe30e6e6d2346">
+                        <div class="content-product-name">Monster Hunter World</div>
+                        <div class="content-product-price">34.40$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://images.g2a.com/newlayout/470x470/1x1x0/e54c95b84944/59a02395ae653a2b8d219453">
+                        <div class="content-product-name">Playerunknown's Battleground</div>
+                        <div class="content-product-price">14.62$ <sup></sup></div>
                     </a>
                 </div>
                 <a class="loadmore-btn" href="#">Load More</a>
             </div>
 
-            <div class="main-line">
+            <div class="line-wrapper">
                 <div class="title">Newest</div>
+                <a class="highlight" href="#">
+                        <img src="https://www.gamewallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_overkills_the_walking_dead_01_2560x1080.jpg&height=506">
+                        <div class ="product-info">
+                                <div class="product-name">OVERKILL's The Walking Dead</div>
+                                <div class="product-price">20.64$ <sup>HOT</sup></div>
+                        </div>
+                        <div class="more-btn purple-btn">More</div>
+                </a>
                 <div class="product-line">
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://assets1.ignimgs.com/2018/05/29/world-war-3---button-1-1527633517844.jpg">
+                        <div class="content-product-name">World War 3</div>
+                        <div class="content-product-price">14.19$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://pbs.twimg.com/profile_images/1049332940285648896/nR_Drjw-_400x400.jpg">
+                        <div class="content-product-name">Executive Assault 2</div>
+                        <div class="content-product-price">9.46$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://absolutexbox.co.uk/wp-content/uploads/2018/06/GRIP_Keyart_1080p-310x310.jpg">
+                        <div class="content-product-name">GRIP: Combat Racing</div>
+                        <div class="content-product-price">9.68$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://cdn.gracza.pl/galeria/gry13/grupy/6796453.jpg">
+                        <div class="content-product-name">Football Manager 2019</div>
+                        <div class="content-product-price">33.11$ <sup></sup></div>
                     </a>
                 </div>
                 <a class="loadmore-btn" href="#">Load More</a>
             </div>
 
-            <div class="main-line">
+            <div class="line-wrapper">
                 <div class="title">Top selling</div>
+                <a class="highlight" href="#">
+                        <img src="https://www.gamewallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_ark_survival_evolved_01_2560x1080.jpg&height=506">
+                        <div class ="product-info">
+                                <div class="product-name">ARK: Survival Envolved</div>
+                                <div class="product-price">15.65$ <sup>HOT</sup></div>
+                        </div>
+                        <div class="more-btn purple-btn">More</div>
+                </a>
                 <div class="product-line">
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_RocketLeague.jpg">
+                        <div class="content-product-name">Rocket League</div>
+                        <div class="content-product-price">8.08$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://i93.fastpic.ru/big/2018/1023/e0/bfc286f04cc8c8df4754175d974bade0.jpg">
+                        <div class="content-product-name">Thronebreaker: The Witcher Tales</div>
+                        <div class="content-product-price">10.75$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://pbs.twimg.com/profile_images/1006868650647871490/P8Y1N08b_400x400.jpg">
+                        <div class="content-product-name">Farming Simulator 19</div>
+                        <div class="content-product-price">17.20$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/CA/en/99/UP3526-CUSA12611_00-ORIGINALSIN2DE01//image?_version=00_09_000&platform=chihiro&w=720&h=720&bg_color=000000&opacity=100">
+                        <div class="content-product-name">Divinity Original Sin II</div>
+                        <div class="content-product-price">15.05$ <sup></sup></div>
                     </a>
                 </div>
                 <a class="loadmore-btn" href="#">Load More</a>
             </div>
 
-            <div class="main-line">
+            <div class="line-wrapper">
                 <div class="title">Pre-Order</div>
+                <a class="highlight" href="#">
+                        <img src="Images/battle_field_5.jpg">
+                        <div class ="product-info">
+                                <div class="product-name">Battlefield V</div>
+                                <div class="product-price">59.99$ <sup>HOT</sup></div>
+                        </div>
+                        <div class="more-btn purple-btn">More</div>
+                </a>
                 <div class="product-line">
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.0-9/33864860_326358874563143_531779778026405888_n.jpg?_nc_cat=108&_nc_ht=scontent.fsgn2-3.fna&oh=4a4e8c07111498e36a38f6df68cebc07&oe=5C840729">
+                        <div class="content-product-name">Fallout 76</div>
+                        <div class="content-product-price">59.99$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcxM6I4JY1iWv_X7TzPVlYmQGhvRaZ29ONVkwONmCUERujc64dLXrHHcIkzNPeM_fBltJLFpXjPuJ2K.akxj3.XexWeoI5Aip26K6pna5.KvUTOMf1bdUM26bizKImWsNCC3r1QAeNImI3Vc7W_l65u3CZcAKTdmvVhJIIMdeJOvg-&w=800&h=800&format=jpg">
+                        <div class="content-product-name">Just Cause 4</div>
+                        <div class="content-product-price">59.99$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://assets1.ignimgs.com/2017/05/02/darksiders-iii-1493746912660.jpg">
+                        <div class="content-product-name">Darksider III</div>
+                        <div class="content-product-price">59.99$ <sup></sup></div>
                     </a>
                     <a class="product-card" href="#">
-                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
-                        <div class="content-product-name">Minecraft</div>
-                        <div class="content-product-price">26.95$ <sup></sup></div>
+                        <img src="https://assets1.ignimgs.com/2018/09/28/tropico-6---button-00-1538161223017.jpg">
+                        <div class="content-product-name">Tropico 6</div>
+                        <div class="content-product-price">44.99$ <sup>-10%</sup></div>
                     </a>
                 </div>
                 <a class="loadmore-btn" href="#">Load More</a>

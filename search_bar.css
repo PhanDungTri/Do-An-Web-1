@@ -1,4 +1,4 @@
-.wrap
+.search-bar-wrapper
 {
     position: relative;
     width: 100%;
@@ -37,9 +37,7 @@
     width: 10%;
     height: 36px;
     border: 1px solid #762C8E;
-    background: #762C8E;
     text-align: center;
-    color: white;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
@@ -55,7 +53,7 @@
 
 @media screen and (min-width: 1024px)
 {
-    .wrap
+    .search-bar-wrapper
     {
         grid-column: 2/3;
         grid-row: 1/3; 

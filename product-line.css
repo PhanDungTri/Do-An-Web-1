@@ -1,17 +1,20 @@
-#product-wrapper
+/*-----Product Line-----*/
+#product-line-wrapper
 {
+    display: none;
     position: relative;
+    grid-row: 3/4;
     margin: 20px;
 }
 
-.main-line
+.line-wrapper
 {
     display: grid;
     justify-content: center;
     margin-top: 10px;
 }
 
-.main-line .title
+.line-wrapper .title
 {
     border-bottom: 2px solid black;
 }
@@ -46,4 +49,53 @@
 .loadmore-btn:active
 {
     background: #3B1647;
+}
+
+.highlight
+{
+    position: relative;
+    width:  943px;
+    margin: 16px;
+    overflow: hidden;
+}
+
+.highlight img
+{
+    width: 100%;
+}
+
+.highlight .product-info
+{
+    bottom: 10px;
+}
+
+.highlight .product-info .product-name
+{
+    font-size: 20px;
+}
+
+.more-btn
+{
+    font-size: 20px;
+    position: absolute;
+    padding: 35px;
+    bottom: 6px;
+    right: 0;
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 1024px)
+{
+     #product-line-wrapper
+     {
+         display: block;
+     }
+}
+
+@media screen and (min-width: 1280px)
+{
+    .highlight
+    {
+        width: 1184px;
+    }
 }

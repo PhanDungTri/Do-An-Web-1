@@ -16,12 +16,12 @@ $(document).ready(function(){
 		});
 	});
 
-	$(".next").click(function()
+	$(".next-btn").click(function()
 	{
 		moveSlides(1);
 	});
 
-	$(".prev").click(function()
+	$(".prev-btn").click(function()
 	{
 		moveSlides(-1);
 	});

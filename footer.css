@@ -1,0 +1,144 @@
+/*=====Footer=====*/
+footer
+{
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    background: #2D3142;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+/*-----Payment Logo-----*/
+#payment-logo
+{
+    grid-row: 1/2;
+    color: white;
+    text-align: center;
+}
+
+#payment-logo i
+{
+    font-size: 10vw;
+    margin: 10px;
+}
+
+/*-----Footer Menu-----*/
+#footer-menu
+{
+    display: grid;
+    grid-row: 2/3;
+    grid-template-rows: auto auto;
+}
+
+.footer-option
+{
+    font-size: 18px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+.footer-option:active
+{
+    text-decoration: underline;
+}
+
+/*-----Social Media Icon-----*/
+#social-media
+{
+    grid-row: 3/4;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+#social-media a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    margin: 15px;
+}
+
+/*-----Copyright Info-----*/
+#copyright
+{
+    grid-row: 4/5;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+#copyright p
+{
+    color: white;
+    font-size: 12px;
+}
+/*=====Footer=====*/
+
+@media screen and (min-width: 1024px)
+{
+    /*=====Footer=====*/
+    footer 
+    {
+        grid-template-columns: repeat(4, auto);
+        align-items: center;
+        overflow: hidden;
+    }
+
+    /*-----Payment Logo-----*/
+    #payment-logo
+    {
+        grid-row: 1/5;
+        grid-column: 2/3;
+    }
+
+    #payment-logo i
+    {
+        font-size: 3vw;
+        margin-left: 10px;
+    }
+
+    /*-----Footer Menu-----*/
+    #footer-menu
+    {
+        grid-row: 1/5;
+        grid-column: 1/2;
+    }
+
+    .footer-option
+    {
+        border-top: 0px solid white;
+        padding-left: 10px;
+    }
+
+    /*-----Social Mefia Icon-----*/
+    #social-media
+    {
+        grid-row: 1/5;
+        border-top: 0px solid white;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    #social-media a
+    {
+        font-size: 24px;
+        margin: 15px;
+    }
+
+    /*-----Copyright Info-----*/
+    #copyright
+    {
+        grid-row: 1/5;
+        border-top: 0px solid white;
+    }
+
+    #copyright p
+    {
+        font-size: 12px;
+    }
+    /*=====Footer=====*/
+}

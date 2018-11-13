@@ -1,0 +1,40 @@
+.title{
+    display: none;
+    position: relative;
+    font-size: 4vw;
+    padding-left: 10px; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pretty-anchor
+{
+    text-decoration: none;
+    color: white;
+}
+
+.purple-btn
+{
+    text-decoration: none;
+    color: white;
+    background: #762C8E;
+}
+
+.purple-btn:active
+{
+    background: #3B1647;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .title
+    {
+		display: block;
+    	font-size: 20px;
+    }
+
+    .purple-btn:hover
+    {
+        background: #3B1647;
+    }   
+}

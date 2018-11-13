@@ -1,3 +1,13 @@
+/*-----Spotlight-----*/
+#spotlight
+{
+    position: relative;
+    grid-row: 2/3;
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+}
+
 #showcase-wrapper
 {
     width: 100%;
@@ -54,32 +64,20 @@
     font-size: 10px;
 }
 
-.btn-read-more
+.buy-now-btn
 {
-    color: #f2f2f2;
     font-size: 13px;
-    text-decoration: none;
-    background: #762C8E;
 	position: absolute;
     padding: 10px;
     line-height: 69.5px;
     bottom: 0px;
     right: 0;
-	padding-right: 10px;
-}
-
-.btn-read-more:active
-{
-    background: #3B1647;
+    padding-right: 10px;
+    transition: 0.5s;
 }
 
 @media screen and (min-width: 1024px)
 {
-    .btn-read-more:hover
-    {
-        background: #3B1647;
-    }
-
     #showcase-wrapper
     {
         justify-content: center;

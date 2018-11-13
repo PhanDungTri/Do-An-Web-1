@@ -16,8 +16,6 @@
 {
     width: 100%;
     font-size: 5vw;
-    text-decoration: none;
-    color: white;
     padding: 10px;
     border-top: 1px solid white;
 }
@@ -27,12 +25,7 @@
     text-decoration: underline;
 }
 
-.btn-login
-{
-    background: #762C8E;
-}
-
-.burger-menu 
+.burger-menu-icon 
 {
     position: relative;
     width: 50px;
@@ -44,7 +37,7 @@
     outline: none;
 }
 
-.burger-menu:active
+.burger-menu-icon:active
 {
     background: #3E435B;
 }
@@ -87,19 +80,19 @@
     transition: all .3s ease-in-out;
 }
 
-.burger-menu.menu-on .burger::after
+.burger-menu-icon.menu-on .burger::after
 {
     transform: rotate(-45deg);
     bottom: 0px;
 }
 
-.burger-menu.menu-on .burger::before
+.burger-menu-icon.menu-on .burger::before
 {
     transform: rotate(45deg);
     top: 0px;
 }
 
-.burger-menu.menu-on .burger
+.burger-menu-icon.menu-on .burger
 {
    background: rgba(111,111,111,.0);
 }
@@ -107,7 +100,7 @@
 
 @media screen and (min-width: 1024px)
 {
-    .burger-menu
+    .burger-menu-icon
     {
         display: none;
     }

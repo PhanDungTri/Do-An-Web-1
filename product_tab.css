@@ -1,3 +1,11 @@
+/*-----Product Tab-----*/
+#tab
+{
+    position: relative;
+    grid-row: 3/4;
+    overflow: hidden;
+}
+
 .tab-wrapper
 {
     position: relative;
@@ -48,7 +56,7 @@
     color: white;
 }
 
-.btn-view-more
+.view-more-btn
 {
     text-decoration: none;
     color: black;
@@ -66,14 +74,14 @@
     margin-bottom: 10px;
 }
 
-.btn-view-more:active{
+.view-more-btn:active{
     background: #762C8E;
     color: white;
 }
 
 @media screen and (min-width: 600px)
 {
-    .btn-view-more
+    .view-more-btn
     {
         font-size: 4vw;
         padding-left: 6vw;

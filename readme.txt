@@ -30,3 +30,5 @@ Nội dung:
        - Thiết kế Thẻ sản phẩm
        - Thiết kế Footer
        - Thêm hiệu ứng Sticky Header
+12/11  - Thiết kế trang đăng nhập cho người sử dụng
+       - Liên kết trang index tới trang UserLogin

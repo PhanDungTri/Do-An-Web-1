@@ -1,0 +1,41 @@
+/*=====Body=====*/
+.product-img-wrapper
+{
+    position: relative;
+    margin-top: 2.5px;
+}
+
+.recent-img
+{
+    position: relative;
+    width: 100%;
+    overflow:hidden
+}
+
+.recent-img img
+{
+    width: 100vw;
+}
+
+.img-wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.img-wrapper img
+{
+    cursor: pointer;
+    width: 20vw;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+
+.active
+{
+    border: 2px solid #762C8E !important;
+}
+/*=====Body=====*/

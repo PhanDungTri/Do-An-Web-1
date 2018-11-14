@@ -10,10 +10,11 @@ body {
   text-align: center;
 }
 
+
 .form-signin {
-  max-width: 380px;
+  max-width: 90vw;
   border-radius: 10px;
-  padding: 15px 35px 45px;
+  padding: 25px 35px 45px;
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid rgba(0,0,0,0.1);  
@@ -22,8 +23,7 @@ body {
  .logo {
     margin-bottom: 30px;
     object-fit: contain;
-    width:200px;
-    height:100px
+    max-width: 45vw;
 	}
   .password{
     text-align: left;
@@ -35,6 +35,7 @@ body {
   .sign-in
   {
     margin-bottom: 30px;
+    margin-top:25px;
   }
 	.form-control {
 	  position: relative;
@@ -60,4 +61,17 @@ body {
     text-align: right;
     
   }
+  @media screen and (min-width: 1024px)
+{
+  .form-signin {
+    width: 25vw;
+
+  
+  }
+   .logo {
+      margin-bottom: 30px;
+      width: 15vw;
+    }
+
+}
 

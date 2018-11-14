@@ -7,11 +7,11 @@ body {
 .wrapper {	
 	margin-top: 80px;
   margin-bottom: 80px;
-  text-align: center;
 }
 
 .form-create {
-  max-width: 380px;
+  text-align: center;
+  max-width: 80vw;
   border-radius: 10px;
   padding: 15px 35px 45px;
   margin: 0 auto;
@@ -21,15 +21,14 @@ body {
 }
  .logo {
     object-fit: contain;
-    width:320px;
-    height:100px;
+    max-width:45vw;
 	}
   .password{
     text-align: left;
   }
 	.checkbox {
     font-weight: normal;
-    padding-left: 22px;
+    text-align: left;
 	}
   .create-account
   {
@@ -59,7 +58,23 @@ body {
     text-align: right;
     
   }
-  #name
-  {
-    max-width: 150px;
+@media screen and (min-width:1024px)
+{
+  #name{
+    width: 18vw;
   }
+  
+  .form-create {
+    text-align: center;
+    max-width: 45vw;
+
+  
+  }
+   .logo {
+     
+      object-fit: contain;
+      width:35vw;
+      
+    }
+
+}

@@ -7,6 +7,7 @@ $(document).ready(function () {
         if (prevPos > currentPos)
         {
             $(".menu-bar").slideDown("fast");
+            $(".menu-bar").css("display", "grid")
         }
         else
         {

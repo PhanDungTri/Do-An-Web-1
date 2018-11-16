@@ -37,4 +37,4 @@ Nội dung:
 13/11: - Hoàn tất trang chủ
        - Thiết kế trang sản phẩm
        - Thêm hình đại diện sản phẩm
-	
+       - Hoàn tất feedback

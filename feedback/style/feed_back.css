@@ -1,0 +1,149 @@
+body
+{
+   margin: 0;
+   padding: 0;
+   text-align: center ;
+   background: url(../images/feed_backwallpaper.jpg) ;
+   background-size: cover ;
+   background-position: center ;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.wrapper
+    {
+        padding-top:6vw;
+    }
+
+.contact-tittle
+{
+    margin-top: 1vw ;
+    color: rgb(44, 49, 122) ;
+    transition: all 4s ease-in-out ;
+}
+
+.contact-tittle h1 
+{
+    font-size: 7vw ;
+    text-transform: uppercase ;
+    line-height: 6vw ;
+}
+
+.contact-tittle a
+{
+    font-size: 4vw ;
+
+}
+
+form
+{
+    margin-top: 7vw ;
+    transition: all 4s ease-in-out ;
+}
+.contact-form
+{
+    max-width: 60vw;
+    border-radius: 7px;
+    padding: 30px 35px 45px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0,0,0,0.1);  
+} 
+
+.form-control
+{
+    width: 57vw ;
+    background: transparent ;
+    border: none ;
+    outline: none ;
+    border-bottom: 0.2vw solid black ;
+    font-size: 4.5vw ;
+    margin-top:5vw;
+    margin-bottom: 5vw ;
+}
+
+input 
+{
+    height: 12vw;
+}
+
+form .submit
+{
+    background: #24106d ;
+    border-radius: 5px;
+    border-color: transparent ;
+    color : #fff ;
+    font-size: 3.6vw ;
+    width: 40vw;
+    letter-spacing: 0.5vw ;
+    height: 14vw;
+    margin-top: 12vw ;
+}
+
+form .submit :hover
+{
+    background-color: #24106d ;
+    cursor: pointer ;
+}
+::placeholder { 
+    color:  rgb(0, 0, 0) ;
+    font-family: 'Noto Sans', sans-serif;
+    } 
+
+@media screen and (min-width :1024px)
+{
+    .wrapper
+    {
+        padding-top:25px;
+    }
+    .contact-tittle
+    {
+        margin-top: 25px ;
+    }
+    .contact-tittle h1
+    {
+        font-size: 40px ;
+        line-height: 22px ;
+    }
+    .contact-tittle a
+    {
+        font-size: 18px ;
+    }
+    form 
+    {
+        margin-top: 70px ;
+    }
+    .form-control
+    {
+        max-width: 500px ;    
+        border-bottom: 1px solid rgb(78, 50, 179) ;
+        font-size: 18px ;
+        margin-top: 28px;
+        margin-bottom: 06px ;
+    }
+    input 
+    {
+        height: 45px;
+       
+    }
+    form .submit
+    {
+        font-size: 19px ;
+        letter-spacing: 2px ;
+        height: 50px;
+        width: 250px;
+        margin-top: 35px ;
+        
+    }
+    .contact-form
+    {
+        max-width: 500px;
+        border-radius: 7px;
+        padding: 30px 35px 45px;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(0,0,0,0.1);  
+    } 
+    
+
+ 
+}

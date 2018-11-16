@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        GameHub Store
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/gamehublogo.png"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/cart-form.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/footer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/burger-menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/search-bar.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/slideshow.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/sticky.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/header-menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/common-style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/menu-bar.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script/burger-menu.js"></script>
+    <script src="script/slideshow.js"></script>
+    <script src="script/product-tab.js"></script>
+    <script src="script/menu-bar.js"></script>
+</head>
+
+<body>
+    <!--Header--> 
+    <header class="sticky">
+        <!--Header Menu-->
+        <div class="header-menu">
+            <a id="category" class="pretty-anchor">Category</a>
+            <div class="sub-menu">
+                <a href="#" class="pretty-anchor">Steam Games</a>
+                <a href="#" class="pretty-anchor">Origin Games</a>
+                <a href="#" class="pretty-anchor">Battle.net Games</a>
+                <a href="#" class="pretty-anchor">Gift Cards</a>
+                <a href="#" class="pretty-anchor">Bundles</a>
+            </div>
+            <a href="#" class="pretty-anchor">Daily Deals</a>
+            <a href="#" class="pretty-anchor">Feedback</a>
+            <a class="purple-btn" href="account/user-login.html">Login</a>
+        </div>
+
+        <!--Burger Menu Icon-->
+        <div class="burger-menu-icon">
+            <div class="burger"></div>  
+          </div>
+
+        <!--Website Logo-->
+        <div class="logo">
+            <a href="index.html"><img id="logo-img" src="images/gamehub.png" alt="GameHub Logo"></a>
+        </div>
+
+        <!--Shopping Cart Icon-->
+        <a class="cart-icon pretty-anchor" href="#">
+            <div><i class="fa fa-shopping-cart"></i></div>
+        </a>
+
+        <!--Search Bar-->
+        <div class="search-bar-wrapper">
+            <div class="search-bar">
+                <input type="text" class="search-term" placeholder="What are you looking for?">
+                <button type="submit" class="search-btn purple-btn"><i class="fa fa-search"></i></button>  
+            </div>
+        </div>
+
+        <!--Login Button (Desktop)-->
+        <a class="login-wrapper pretty-anchor" href="account/user-login.html">
+            <div class="login-btn"><i class="fa fa-user"></i> sign in</div>
+        </a>
+    </header>
+
+    <!--Menu Bar (Desktop)-->
+    <div class="menu-bar sticky">
+            <a href="#" class="pretty-anchor">Steam Games</a>
+            <a href="#" class="pretty-anchor">Origin Games</a>
+            <a href="#" class="pretty-anchor">Battle.net Games</a>
+            <a href="#" class="pretty-anchor">Gift Cards</a>
+            <a href="#" class="pretty-anchor">Bundles</a>
+    </div>
+
+    <div class="body">
+        <div class="your-cart">
+            <b>YOUR CART</b>
+            <div id="item-quantity"> 2 Item(s)</div>
+        </div>
+        <div class="products_wrapper">
+            <div class="products">
+                <div class="picture"><img src="Images/pubg.jpg"></div>
+                <div class="information">
+                  <div class=product-name>PlayerUnknow's Battlegrounds</div>  
+                  
+                    <div class=product-price>$15.99</div>
+                    <div class=product-quantity>Quantity:
+                            <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                  </select>
+                    </div>
+                    <a href="#" class="remove-btn" >Remove</a>
+                 </div>
+            </div>
+            <div class="products">
+                    <div class="picture"><img src="Images/pubg.jpg"></div>
+                    <div class="information">
+                      <div class=product-name>PlayerUnknow's Battlegrounds</div>  
+                      
+                        <div class=product-price>$15.99</div>
+                        <div class=product-quantity>Quantity:
+                                <select>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                      </select>
+                        </div>
+                        <a href="#" class="remove-btn" >Remove</a>
+                     </div>
+                </div>
+        </div>
+         <div class="summary ">
+
+      
+
+
+        </div>
+    </div>
+       
+    <!--Footer-->
+    <footer>
+        <!--Payment Logo-->
+        <div id="payment-logo">
+            <i class="fa fa-credit-card-alt"></i>
+            <i class="fa fa-cc-visa"></i>
+            <i class="fa fa-cc-mastercard"></i>
+            <i class="fa fa-cc-paypal"></i>
+        </div>
+
+        <!--Footer Menu-->
+        <div id="footer-menu">
+            <a class="footer-option" href="#">About Us</a>
+            <a class="footer-option" href="#">Support Center</a>
+            <a class="footer-option" href="#">Terms of Use</a>
+            <a class="footer-option" href="#">Privacy Policy</a>
+        </div>
+
+        <!--Social Media Icon-->
+        <div id="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+
+        <!--Copyright Information-->
+        <div id="copyright">
+            <p>Designed by Phan Dũng Trí, Nguyễn Quốc Vũ, Nguyễn Đức Anh Tuấn</p>
+        </div>
+    </footer>
+</body>
+
+</html>

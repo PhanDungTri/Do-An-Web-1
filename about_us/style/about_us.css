@@ -1,0 +1,114 @@
+body
+{
+    margin: 0;
+    padding: 0 ;
+    background: url(../images/about_uswallpaper.jpg) ;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.team-section
+{
+    overflow: hidden ;
+    text-align: center ;
+}
+
+.team-section h1
+{
+    text-transform: uppercase ;
+    margin-bottom: 7vw ;
+    color: white ;
+    font-size: 10vw ;
+}
+
+.border
+{
+    display: block ;
+    margin: auto ;
+    width: 150vw ;
+    height: 1vw ;
+    background: #3498db ;
+    margin-bottom: 7vw ; 
+}
+
+.ps
+{
+    margin-bottom: 5vw ;
+}
+
+.ps img
+{
+    display: inline;
+    margin: 1vw 7vw ;
+    width: 30vw ;
+    height: 30vw ;
+    overflow: hidden;
+    border-radius: 50% ;
+}
+
+.section
+{
+    width: 100wv ;
+    margin: 2vw 6vw 5vw 6vw ;
+    font-size: 4vw;
+    color: white ;
+    text-align: justify ;
+    height: 0 ;
+    overflow: hidden;
+}
+
+.section:target 
+{
+    height: auto;
+}
+
+.name
+{
+    display: block;
+    margin-bottom: 10vw ;
+    text-align: center ;
+    text-transform: uppercase ;
+    font-size: 5vw ;
+}
+
+@media screen and (min-width :1024px)
+{
+    .team-section h1 
+    {
+        margin-bottom: 60px ;
+        font-size: 40px ;
+    }
+
+    .border
+    {
+        margin: auto ;
+        width: 1600px ;
+        height: 3px ;
+        margin-bottom : 40px ;
+    }
+    
+    .ps
+    {
+        margin-bottom: 40px ;
+    }
+
+    .ps img 
+    {
+        margin: 0 30px ;
+        width: 160px ;
+        height: 160px ;
+    }
+
+    .section
+    {
+        width: 600px ;
+        margin: auto ;
+        font-size: 20px ;
+
+    }
+    
+    .name
+    {
+        margin-bottom: 30px ;
+        font-size: 22px ;
+    }
+}

@@ -3,7 +3,7 @@ body
    margin: 0;
    padding: 0;
    text-align: center ;
-   background: url(../images/feed_backwallpaper.jpg) ;
+   background: url(../images/feed-backwallpaper.jpg) ;
    background-size: cover ;
    background-position: center ;
    font-family: 'Noto Sans', sans-serif;
@@ -18,7 +18,7 @@ body
 {
     margin-top: 1vw ;
     color: rgb(44, 49, 122) ;
-    transition: all 4s ease-in-out ;
+    transition: all 0.5s ease-in-out ;
 }
 
 .contact-tittle h1 
@@ -37,7 +37,7 @@ body
 form
 {
     margin-top: 7vw ;
-    transition: all 4s ease-in-out ;
+    transition: all 0.5s ease-in-out ;
 }
 .contact-form
 {

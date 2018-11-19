@@ -24,6 +24,7 @@
     <script src="script/slideshow.js"></script>
     <script src="script/product-tab.js"></script>
     <script src="script/menu-bar.js"></script>
+    <script src="script/cart-description.js"></script>
 </head>
 
 <body>
@@ -85,7 +86,7 @@
     <div class="body">
         <div class="your-cart">
             <b>YOUR CART</b>
-            <div id="item-quantity"> 2 Item(s)</div>
+            <div id="item-quantity"> 3 Item(s)</div>
         </div>
         <div class="products_wrapper">
             <div class="products">
@@ -93,7 +94,7 @@
                 <div class="information">
                   <div class=product-name>PlayerUnknow's Battlegrounds</div>  
                   
-                    <div class=product-price>$15.99</div>
+                    <div class=product-price>$19.99</div>
                     <div class=product-quantity>Quantity:
                             <select>
                                     <option value="1">1</option>
@@ -111,11 +112,11 @@
                  </div>
             </div>
             <div class="products">
-                    <div class="picture"><img src="Images/pubg.jpg"></div>
+                    <div class="picture"><img src="Images/ghost-recon.jpg"></div>
                     <div class="information">
-                      <div class=product-name>PlayerUnknow's Battlegrounds</div>  
+                      <div class=product-name>Ghost Recon® Wildlands</div>  
                       
-                        <div class=product-price>$15.99</div>
+                        <div class=product-price>$11.99</div>
                         <div class=product-quantity>Quantity:
                                 <select>
                                         <option value="1">1</option>
@@ -132,13 +133,54 @@
                         <a href="#" class="remove-btn" >Remove</a>
                      </div>
                 </div>
-        </div>
-         <div class="summary ">
+                <div class="products">
+                    <div class="picture"><img src="Images/csgo.png"></div>
+                    <div class="information">
+                      <div class=product-name>Counter Strike: Global Offensive </div>  
+                      
+                        <div class=product-price>$7.50</div>
+                        <div class=product-quantity>Quantity:
+                                <select>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                      </select>
+                        </div>
+                        <a href="#" class="remove-btn" >Remove</a>
+                     </div>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="subtotal">
+                    <div class="subtotal-left">Subtotal</div>
+                    <div class="subtotal-right">$39.48</div>
+                </div>
+                <div class="discount">
+                    <div class="discount-left">Discount &#9660;</div>
+                    <div class="discount-right"> <a>Do you have any promotion code ? </a> </div>
+                    <div class="description">
+                        <form> 
+                            <input id="discount-text" type="text">
+                            <button type="button" id="discount-button" >Enter</button>
+                            <div class="pull-right"> 15% </div>   
+                        </form>                     
+                    </div>                     
+                </div>
+            <div class="total">
+                <div class="total-left">Total</div>
+                <div class="total-right">$39.48</div>
+            </div>
+            <div class="checkout">
+                <button class="checkout-button">Go to checkout</button>  
+            </div>
 
-      
-
-
-        </div>
+        </div>    
     </div>
        
     <!--Footer-->

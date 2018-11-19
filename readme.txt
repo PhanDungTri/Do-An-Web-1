@@ -38,3 +38,4 @@ Nội dung:
        - Thiết kế trang sản phẩm
        - Thêm hình đại diện sản phẩm
        - Hoàn tất feedback
+18/11  - Hoàn tất giỏ hàng 

@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-
-*{outline: none}
-
 body
 {
-    margin: 0;
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 1.5;
-    background: #762C8E;
+    background: #762C8E !important;
 }
 
 .eror-404

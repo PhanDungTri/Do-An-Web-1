@@ -1,0 +1,36 @@
+.body
+{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.categlory-title
+{
+    grid-row: 1/2;
+    font-size: 19pt;
+}
+.list
+{
+    grid-row:2/3;
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+}
+.game-wrapper
+{
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+    border: 2px;
+    display:flex;
+    border: solid black 1px;
+    padding: 10px 50px 10px;
+    margin: 12px;
+}
+.product-cards
+{
+    border: solid black 1px;
+    color: green;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 300px;
+    width: 200px;
+}

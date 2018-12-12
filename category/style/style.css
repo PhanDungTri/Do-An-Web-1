@@ -1,0 +1,135 @@
+.title-cate
+{
+    display: block;
+    text-align: left;
+    color:rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 2vw 3vw 2vw;
+    font-size: 5vw;
+    margin: 6vw 1vw 3vw;
+    font-weight:bold;
+    border: 2vw;
+
+}
+
+.title-cate img
+{
+    height: 5vw;
+}
+
+.list
+{
+    display: grid;
+    padding-top:2vw;
+    grid-template-columns: 30% 70%;
+    padding-bottom: 2vw;
+    max-width: 100%;
+    padding: 1vw;
+    align-items: center;
+    background: #f8f8f8;
+    margin: 1vw 2.5vw 4vw ;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 1vw 2vw 0 rgba(0,0,0,.25); 
+}
+
+.pic
+{
+    text-align: center;
+    padding-top: 1vw;
+    grid: 1/2;
+}
+
+.pic img
+{
+    height: 25vw;
+    width: 25vw;
+    border-radius: 2wv;
+}
+
+.info
+{
+    grid-column: 2/3;
+}
+
+.pro-name
+{
+    font-size: 5vw;
+    font-weight:bold;
+    padding-bottom:1vw;
+    margin-left: 2vw;  
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+.pro-price
+{
+    padding-top:1vw;
+    font-size:5vw;
+    padding-bottom: 1vw;
+    margin-left: 2vw; 
+    font-weight: bolder;
+}
+
+.bottom-cate
+{
+    margin: 1vw 5vw 3vw ;
+    display: flex;
+    justify-content: space-between;
+}
+.button 
+{
+    
+    background-color: #762C8E;
+    border: 2vw;
+    color: white;
+    padding: 3vw 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4vw;
+    border-radius:5vw; 
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .body
+    {
+        display: grid;
+        grid-template-rows: auto auto ;
+    }
+
+    .title-cate
+    {
+        grid-row:1/2;
+        font-size:30px; 
+        padding: 10px 10px 10px;
+        margin: 10px 20px 10px;
+    }
+
+    .title-cate img 
+    {
+        height: 30px;
+    }
+
+    .list
+    {
+        grid-row: 2/3;
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+
+    }
+
+    .list-wrapper
+    {
+        text-align:center;
+        justify-content: center;
+        align-content: center;
+        border: 2px;
+        display:flex;
+        border: solid black 1px;
+        padding: 10px 50px 10px;
+        margin: 12px;
+    }
+}
+

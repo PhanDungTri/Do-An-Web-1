@@ -265,6 +265,7 @@
             grid-column: 1/2;
             grid-row: 2/3;
             padding-top:0px;
+            margin: 25px 10px 25px ;
             padding-bottom: 0px;
             grid-template-columns: 20% 80%;
           
@@ -278,7 +279,7 @@
         
         .picture img
         {
-            margin-top: 25px;
+            margin-top: 15px;
             height: 150px;
             width:150px;
             
@@ -316,7 +317,7 @@
         {
             grid-column: 2/3;
             grid-row: 2/3;
-            margin: 60px auto auto;   
+            margin: 25px auto auto;   
             padding: auto auto auto;
             font-size: 15pt;
             line-height: 10pt;
@@ -386,11 +387,11 @@
             text-align: left;
             text-decoration: none;
             display: inline-block;
-            font-size: 16pt;
+            font-size: 11pt;
             border: solid rgb(179, 179, 179) 0.2vw;
             margin: 0px 2px;
-            width: 220px;
-            height: 40px;
+            width: 100px;
+            height: 25px;
         }
         #discount-button
         {
@@ -399,11 +400,11 @@
             text-align: left;
             text-decoration: none;
             display: inline-block;
-            font-size: 19pt;
+            font-size: 11pt;
             border: solid rgb(179, 179, 179) 0.1vw;
             cursor: pointer;
-            margin: 4px 2px;
-            height:45px;
+            margin: 1px 1px;
+            height:30px;
         }
 
           .discount .discount-left ,.discount .discount-right

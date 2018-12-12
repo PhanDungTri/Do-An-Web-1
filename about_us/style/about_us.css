@@ -72,6 +72,10 @@ body
 
 @media screen and (min-width :1024px)
 {
+    .wrapper
+    {
+        background: white;
+    }
     .team-section h1 
     {
         margin-bottom: 60px ;

@@ -14,10 +14,82 @@ body
 
 .eror-404 div img
 {
-    width: 20vw;
+    width: 18vw;
+  
 }
 
-.eror-404 div
+.eror-404 .four-zero-four
 {
-    font-size: 25vw;
+    font-size: 22vw;
+}
+.eror-404 .page-not-found
+{
+    font-size:5.1vw;
+    line-height: 8vw;
+    padding-bottom: 5vw;
+    font-weight: 200;
+    color:rgb(253, 250, 38);
+}
+
+
+.eror-404 .return-home 
+{
+    font-size: 3vw;
+    color:rgb(255, 239, 10);
+    font-weight: bolder;
+}
+.eror-404 .button-wrapper
+{
+    text-align: center;
+    box-shadow: 0 2vw 1vw 0 rgba(0,0,0,.25);
+    background: rgb(235, 40, 40);
+    border-radius: 2vw;
+    padding: 1vw 0.5vw 1vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.not-exist
+    {
+        font-size:3vw;
+    }
+@media screen and (min-width: 1028px)
+{
+
+    .eror-404 div img
+    {
+        width: 157px;
+        height: auto;
+    
+    }
+
+    .eror-404 .four-zero-four
+    {
+        padding-top:80px;
+        font-size: 150pt;
+        line-height: 150pt;
+    }
+    .eror-404 .page-not-found
+    {
+
+        font-size:30pt;
+        padding-top:20px;
+        line-height: 45pt;
+        padding-bottom: 25px;
+    }
+    .eror-404 .return-home 
+    {
+        font-size: 20pt;
+    }
+    .eror-404 .button-wrapper
+    {
+        text-align: center;
+        box-shadow: 0 1vw 1vw 0 rgba(0,0,0,.25);
+        padding: 10px 25px 10px;
+        margin-left: 110px;
+        margin-right: 120px;
+    }
+    .not-exist
+    {
+        font-size:18px;
+    }
 }

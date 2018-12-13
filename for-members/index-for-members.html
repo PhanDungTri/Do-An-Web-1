@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        GameHub Store
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../images/gamehublogo.png"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/footer.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/burger-menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/search-bar.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/slideshow.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/spotlight.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/product-tab.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/product-card.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/sticky.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/product-line.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/common-style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style/menu-bar.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../script/burger-menu.js"></script>
+    <script src="../script/slideshow.js"></script>
+    <script src="../script/product-tab.js"></script>
+    <script src="../script/menu-bar.js"></script>
+</head>
+
+<body>
+    <!--Header--> 
+    <header class="sticky">
+        <!--Header Menu-->
+        <div class="header-menu">
+            <a id="category" class="pretty-anchor">Category</a>
+            <div class="sub-menu">
+                <a href="#" class="pretty-anchor">Steam Games</a>
+                <a href="#" class="pretty-anchor">Origin Games</a>
+                <a href="#" class="pretty-anchor">Battle.net Games</a>
+                <a href="#" class="pretty-anchor">Gift Cards</a>
+                <a href="#" class="pretty-anchor">Bundles</a>
+            </div>
+            <a href="#" class="pretty-anchor">Daily Deals</a>
+            <a href="feedback/feed-back.html" class="pretty-anchor">Feedback</a>
+            <a class="purple-btn" href="../account/user-login.html">Login</a>
+        </div>
+
+        <!--Burger Menu Icon-->
+        <div class="burger-menu-icon">
+            <div class="burger"></div>  
+          </div>
+
+        <!--Website Logo-->
+        <div class="logo">
+            <a href="index-for-members.html"><img id="logo-img" src="../images/gamehub.png" alt="GameHub Logo"></a>
+        </div>
+
+        <!--Shopping Cart Icon-->
+        <a class="cart-icon pretty-anchor" href="../shopping-cart/shopping-cart.html">
+            <div><i class="fa fa-shopping-cart"></i></div>
+        </a>
+
+        <!--Search Bar-->
+        <div class="search-bar-wrapper">
+            <div class="search-bar">
+                <input type="text" class="search-term" placeholder="What are you looking for?">
+                <button type="submit" class="search-btn purple-btn"><i class="fa fa-search"></i></button>  
+            </div>
+        </div>
+
+        <!--Login Button (Desktop)-->
+        <a class="login-wrapper pretty-anchor" href="#">
+            <div class="login-btn"><i class="fa fa-user"></i> </div>
+        </a>
+    </header>
+
+    <!--Menu Bar (Desktop)-->
+    <div class="menu-bar sticky">
+            <a href="#" class="pretty-anchor">Steam Games</a>
+            <a href="#" class="pretty-anchor">Origin Games</a>
+            <a href="#" class="pretty-anchor">Battle.net Games</a>
+            <a href="#" class="pretty-anchor">Gift Cards</a>
+            <a href="#" class="pretty-anchor">Bundles</a>
+    </div>
+
+    <!--Body-->
+    <div class="body">
+
+        <div class="trend-container">
+            <!--Slide Show-->
+            <div id="slideshow">
+                <div id="slide-wrapper">
+                    <a class="slide" href="#">
+                        <img src="../images/slideshow/blackfriday.jpg">
+                        <div class="caption-text">Black Friday 2018</div>
+                    </a>
+                    <a class="slide">
+                        <img src="../images/slideshow/christmas.jpg">
+                        <div class="caption-text">Winter Game Season</div>
+                    </a>
+                    <a class="slide" href="#">
+                        <img src="../images/slideshow/friday13.jpg">
+                        <div class="caption-text">Friday 13th</div>
+                    </a>
+                    <a class="slide" href="#">
+                        <img src="../images/slideshow/ghostrecon.jpg">
+                        <div class="caption-text">Ghost Recon</div>
+                    </a>
+            
+                    <a class="prev-btn">&#10094;</a>
+                    <a class ="next-btn">&#10095;</a>
+                </div>
+                <div class="dot-btn">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+
+            <!--Daily Deal-->
+            <div id="daily-deal">
+                <a href="#"><img src="../images/insurgency.jpg"></a>
+            </div>
+        </div>
+
+        <!--Spotlight-->
+        <div id="spotlight">
+            <p class="title" id="spotlight-title"><i class="fa fa-star"></i> Spotlight</p>
+            <div id="showcase-wrapper">
+                <div class="showcase">
+                    <img src="https://wallpapercave.com/wp/wp2614338.jpg">
+                    <div class ="product-info">
+                        <div class="product-name">Red Dead Redemption 2</div>
+                        <div class="product-price">59.99$ <sup>HOT</sup></div> 
+                    </div>
+                    <a href="./product/Red Dead Redemption 2.html" class="buy-now-btn purple-btn">Buy now</a>
+                </div>
+                <div class="showcase">
+                        <img src="https://blog.us.playstation.com/wp-content/uploads/2018/06/June-11-230pm-Assassins-Creed-Odyssey-lead-image.jpg">
+                        <div class ="product-info">
+                            <div class="product-name">Assassins Creed: Odyssey</div>
+                            <div class="product-price">42.57$ <sup></sup></div> 
+                        </div>
+                        <a href="./product/Assassin's Creed Odyssey.html" class="buy-now-btn purple-btn">Buy now</a>
+                </div>
+                <div class="showcase">
+                        <img src="https://attackofthefanboy.com/wp-content/uploads/2018/08/fallout-76-helmet-logo-green-attack-of-the-fanboy.jpg">
+                        <div class ="product-info">
+                            <div class="product-name">Fallout 76</div>
+                            <div class="product-price">79.99$ <sup>Pre-Order</sup></div> 
+                        </div>
+                        <a href="#" class="buy-now-btn purple-btn">Buy now</a>
+                </div>
+            </div>            
+        </div>
+
+        <!--Products Tab-->
+        <div id="tab">
+            <div class="tab-wrapper">
+                <div class="tab-btn" id="popular-btn">Popular</div>
+                <div class="tab-btn" id="newest-btn">Newest</div>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="tab-content" id="popular">
+                    <a class="product-card" href="../product/GTA_V.html">
+                        <img src="https://consequenceofsound.files.wordpress.com/2013/08/gta-51.jpeg?quality=80&w=448">
+                        <div class="content-product-name">Grand Theft Auto V</div>
+                        <div class="content-product-price">13.00$ <sup>-34%</sup></div>
+                    </a>
+                    <a class="product-card" href="../product/Minecraft.html">
+                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
+                        <div class="content-product-name">Minecraft</div>
+                        <div class="content-product-price">26.95$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="../product/PlayerUnknown's Battlegrounds.html">
+                        <img src="https://images.g2a.com/newlayout/470x470/1x1x0/e54c95b84944/59a02395ae653a2b8d219453">
+                        <div class="content-product-name">Playerunknown's Battleground</div>
+                        <div class="content-product-price">14.62$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="../product/Overwatch.html">
+                        <img src="https://pbs.twimg.com/profile_images/983803209947873281/Mlll9kHm_400x400.jpg">
+                        <div class="content-product-name">Overwatch</div>
+                        <div class="content-product-price">39.99$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="../product/Tom Clancy's Rainbow Six Siege.html">
+                        <img src="https://production-gameflipusercontent.fingershock.com/us-east-1:35430c6a-7550-4133-a08b-63c9f4f35dc0/50efe806-fd70-4a6a-9d43-2c58567f0dcf/4ba64f3e-4d60-4ed0-9028-ed15f2e445ac">
+                        <div class="content-product-name">Tom Clancy's Rainbow Six® Siege - Stater Edition</div>
+                        <div class="content-product-price">10.70$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="../product/Counter-Strike Global Offensive.html">
+                        <img src="https://production-gameflipusercontent.fingershock.com/us-east-1:3fb8ba2e-587c-4174-befe-4249b9780065/a4d6e759-3c75-40e9-bfb4-3ed3f3f04a32/fd5d4246-04d6-4e41-bb22-8a0cd1125bab">
+                        <div class="content-product-name">Counter Strike: Global Offensive</div>
+                        <div class="content-product-price">6.88$ <sup></sup></div>
+                    </a>
+
+                    <a class="view-more-btn" id="view-more-pop" href="#">View More</a>
+                </div>
+
+                <div class="tab-content" id="newest">
+                    <a class="product-card" href="#">
+                        <img src="https://assets1.ignimgs.com/2018/05/29/world-war-3---button-1-1527633517844.jpg">
+                        <div class="content-product-name">World War 3</div>
+                        <div class="content-product-price">14.20$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://assets1.ignimgs.com/2018/08/06/football-manager-2019---button-1-1533595928065.jpg">
+                        <div class="content-product-name">Football Manager 2019</div>
+                        <div class="content-product-price">33.11$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://pbs.twimg.com/media/DofWw3dXsAAS_6D.jpg">
+                        <div class="content-product-name">OVERKILL's The Walking Dead</div>
+                        <div class="content-product-price">20.64$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP4497-CUSA13472_00-0000000000000002//image?_version=00_09_000&platform=chihiro&w=720&h=720&bg_color=000000&opacity=100">
+                        <div class="content-product-name">Thronebreaker: The Witcher Tales</div>
+                        <div class="content-product-price">10.75$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://pbs.twimg.com/profile_images/984390355796807682/bu3HqNt6_400x400.jpg">
+                        <div class="content-product-name">Project Hospital</div>
+                        <div class="content-product-price">9.46$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP4133-CUSA04730_00-CALLOFCTHULHUXXX//image?_version=00_09_000&platform=chihiro&w=720&h=720&bg_color=000000&opacity=100">
+                        <div class="content-product-name">Call of Cthulhu®</div>
+                        <div class="content-product-price">21.72$ <sup></sup></div>
+                    </a>
+
+                    <a class="view-more-btn" id="view-more-new" href="#">View More</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Products Showcase Line-->
+        <div id="product-line-wrapper">
+            <div class="line-wrapper">
+                <div class="title">Popular</div>
+                <a class="highlight" href="./product/GTA_V.html">
+                    <img src="https://www.ps4home.com/wp-content/uploads/2014/11/GTA-V-ps4-wallpapers.jpg">
+                    <div class ="product-info">
+                            <div class="product-name">Grand Theft Auto V</div>
+                            <div class="product-price">19.74$ <sup></sup></div>
+                    </div>
+                    <div class="more-btn purple-btn">More</div>
+                </a>
+                <div class="product-line">
+                    <a class="product-card" href="product/Minecraft.html">
+                        <img src="https://yt3.ggpht.com/-wZPv3Gj_AJwUMWTqNVET_hWZJYcMGQC3IqIJv2znWMr_NptryfxKjL85klaZq8nXDwyDs2BEtPL_NqelXA=s900-mo-c-c0xffffffff-rj-k-no">
+                        <div class="content-product-name">Minecraft</div>
+                        <div class="content-product-price">26.95$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="product/God of War (2018).html">
+                        <img src="https://img.purch.com/r/340x340/aHR0cDovL21lZGlhLmJlc3RvZm1pY3JvLmNvbS9JL1ovNzY0MDI3L29yaWdpbmFsLzcxZlZnakh3OHlMLl9BQ19TTDEwMjRfLmpwZw==">
+                        <div class="content-product-name">God Of War</div>
+                        <div class="content-product-price">39.99$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://images.g2a.com/newlayout/470x470/1x1x0/0fc2c84aec63/5b6d86c55bafe30e6e6d2346">
+                        <div class="content-product-name">Monster Hunter World</div>
+                        <div class="content-product-price">34.40$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="./product/PlayerUnknown's Battlegrounds.html">
+                        <img src="https://images.g2a.com/newlayout/470x470/1x1x0/e54c95b84944/59a02395ae653a2b8d219453">
+                        <div class="content-product-name">Playerunknown's Battleground</div>
+                        <div class="content-product-price">14.62$ <sup></sup></div>
+                    </a>
+                </div>
+                <a class="loadmore-btn" href="#">Load More</a>
+            </div>
+
+            <div class="line-wrapper">
+                <div class="title">Newest</div>
+                <a class="highlight" href="#">
+                        <img src="https://www.gamewallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_overkills_the_walking_dead_01_2560x1080.jpg&height=506">
+                        <div class ="product-info">
+                                <div class="product-name">OVERKILL's The Walking Dead</div>
+                                <div class="product-price">20.64$ <sup>HOT</sup></div>
+                        </div>
+                        <div class="more-btn purple-btn">More</div>
+                </a>
+                <div class="product-line">
+                    <a class="product-card" href="#">
+                        <img src="https://assets1.ignimgs.com/2018/05/29/world-war-3---button-1-1527633517844.jpg">
+                        <div class="content-product-name">World War 3</div>
+                        <div class="content-product-price">14.19$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://pbs.twimg.com/profile_images/1049332940285648896/nR_Drjw-_400x400.jpg">
+                        <div class="content-product-name">Executive Assault 2</div>
+                        <div class="content-product-price">9.46$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://absolutexbox.co.uk/wp-content/uploads/2018/06/GRIP_Keyart_1080p-310x310.jpg">
+                        <div class="content-product-name">GRIP: Combat Racing</div>
+                        <div class="content-product-price">9.68$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://cdn.gracza.pl/galeria/gry13/grupy/6796453.jpg">
+                        <div class="content-product-name">Football Manager 2019</div>
+                        <div class="content-product-price">33.11$ <sup></sup></div>
+                    </a>
+                </div>
+                <a class="loadmore-btn" href="#">Load More</a>
+            </div>
+
+            <div class="line-wrapper">
+                <div class="title">Top selling</div>
+                <a class="highlight" href="product/ARK Survival Evolved.html">
+                        <img src="https://www.gamewallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_ark_survival_evolved_01_2560x1080.jpg&height=506">
+                        <div class ="product-info">
+                                <div class="product-name">ARK: Survival Envolved</div>
+                                <div class="product-price">15.65$ <sup>HOT</sup></div>
+                        </div>
+                        <div class="more-btn purple-btn">More</div>
+                </a>
+                <div class="product-line">
+                    <a class="product-card" href="./product/Rocket League.html">
+                        <img src="https://cdn02.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_RocketLeague.jpg">
+                        <div class="content-product-name">Rocket League</div>
+                        <div class="content-product-price">8.08$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://i93.fastpic.ru/big/2018/1023/e0/bfc286f04cc8c8df4754175d974bade0.jpg">
+                        <div class="content-product-name">Thronebreaker: The Witcher Tales</div>
+                        <div class="content-product-price">10.75$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="product/Farming Simulator 19.html">
+                        <img src="https://pbs.twimg.com/profile_images/1006868650647871490/P8Y1N08b_400x400.jpg">
+                        <div class="content-product-name">Farming Simulator 19</div>
+                        <div class="content-product-price">17.20$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/CA/en/99/UP3526-CUSA12611_00-ORIGINALSIN2DE01//image?_version=00_09_000&platform=chihiro&w=720&h=720&bg_color=000000&opacity=100">
+                        <div class="content-product-name">Divinity Original Sin II</div>
+                        <div class="content-product-price">15.05$ <sup></sup></div>
+                    </a>
+                </div>
+                <a class="loadmore-btn" href="#">Load More</a>
+            </div>
+
+            <div class="line-wrapper">
+                <div class="title">Pre-Order</div>
+                <a class="highlight" href="product/Battlefield V.html">
+                        <img src="images/battle_field_5.jpg">
+                        <div class ="product-info">
+                                <div class="product-name">Battlefield V</div>
+                                <div class="product-price">59.99$ <sup>HOT</sup></div>
+                        </div>
+                        <div class="more-btn purple-btn">More</div>
+                </a>
+                <div class="product-line">
+                    <a class="product-card" href="#">
+                        <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t1.0-9/33864860_326358874563143_531779778026405888_n.jpg?_nc_cat=108&_nc_ht=scontent.fsgn2-3.fna&oh=4a4e8c07111498e36a38f6df68cebc07&oe=5C840729">
+                        <div class="content-product-name">Fallout 76</div>
+                        <div class="content-product-price">59.99$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://images-eds-ssl.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTcxM6I4JY1iWv_X7TzPVlYmQGhvRaZ29ONVkwONmCUERujc64dLXrHHcIkzNPeM_fBltJLFpXjPuJ2K.akxj3.XexWeoI5Aip26K6pna5.KvUTOMf1bdUM26bizKImWsNCC3r1QAeNImI3Vc7W_l65u3CZcAKTdmvVhJIIMdeJOvg-&w=800&h=800&format=jpg">
+                        <div class="content-product-name">Just Cause 4</div>
+                        <div class="content-product-price">59.99$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://assets1.ignimgs.com/2017/05/02/darksiders-iii-1493746912660.jpg">
+                        <div class="content-product-name">Darksider III</div>
+                        <div class="content-product-price">59.99$ <sup></sup></div>
+                    </a>
+                    <a class="product-card" href="#">
+                        <img src="https://assets1.ignimgs.com/2018/09/28/tropico-6---button-00-1538161223017.jpg">
+                        <div class="content-product-name">Tropico 6</div>
+                        <div class="content-product-price">44.99$ <sup>-10%</sup></div>
+                    </a>
+                </div>
+                <a class="loadmore-btn" href="#">Load More</a>
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer-->
+    <footer>
+        <!--Payment Logo-->
+        <div id="payment-logo">
+            <i class="fa fa-credit-card-alt"></i>
+            <i class="fa fa-cc-visa"></i>
+            <i class="fa fa-cc-mastercard"></i>
+            <i class="fa fa-cc-paypal"></i>
+        </div>
+
+        <!--Footer Menu-->
+        <div id="footer-menu">
+            <a class="footer-option" href="about_us/about_us.html">About Us</a>
+            <a class="footer-option" href="#">Support Center</a>
+            <a class="footer-option" href="#">Terms of Use</a>
+            <a class="footer-option" href="#">Privacy Policy</a>
+            <a class="footer-option" href="account/admin-login.html">Administrator</a>
+        </div>
+
+        <!--Social Media Icon-->
+        <div id="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+
+        <!--Copyright Information-->
+        <div id="copyright">
+            <p>Designed by Phan Dũng Trí, Nguyễn Quốc Vũ, Nguyễn Đức Anh Tuấn</p>
+        </div>
+    </footer>
+</body>
+
+</html>

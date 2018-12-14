@@ -4,7 +4,7 @@ $(document).ready(() => {
     }, "Please enter a valid info.");
 
     $("#reg-form").validate(
-        {
+        { 
         errorCointainer: "#message-box",
         errorLabelContainer: "#message-box",
         wrapper: "li",
@@ -57,5 +57,5 @@ $(document).ready(() => {
                 required: "You must accept the Terms of Use and Privacy Policy to continue!"
             }
         }
-    })
-})
+    });
+});

@@ -104,6 +104,7 @@ ul.sub-menu-cate li:hover
 .info
 {
     grid-column: 2/3;
+    padding-right: 55px;
 }
 .buy-now-btn
 {
@@ -180,7 +181,7 @@ ul.sub-menu-cate li:hover
     width: 5vw;
 }
 
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 1028px)
 {
     .body
     {
@@ -209,7 +210,7 @@ ul.sub-menu-cate li:hover
     .list
     {
         display: grid;
-        grid-template-columns: 17% 73% 10%;
+        grid-template-columns: 20% 50% 30%;
         padding-top: 10px;
         padding-bottom: 2px;
         max-width: 100%;
@@ -234,17 +235,20 @@ ul.sub-menu-cate li:hover
 
     .buy-now-btn
     {
-        margin-top: 130px;
-        padding: 2px 3px;
-        font-size: 15px;
-        height: 90%;
+        margin: 25px 25px;
+        padding: 25px;
+        text-align: center;
+        justify-content: center ;
+        font-size: 13pt;
+        height: 15%;
+        width: 56%;
         border-radius:6px; 
     }
 
     .buy-now-btn img 
     {
-        height: 15px;
-        width: 15px;
+        height: 18px;
+        width: 16px;
     }
 
     .pro-name
@@ -252,7 +256,7 @@ ul.sub-menu-cate li:hover
         font-size: 30px;
         text-decoration: none;
         padding-bottom:3px;
-        margin-left: 4px;  
+        margin-left: 15px;  
     }
 
     .pro-price
@@ -260,7 +264,7 @@ ul.sub-menu-cate li:hover
         padding-top:3px;
         font-size:20px;
         padding-bottom: 3px;
-        margin-left: 4px; 
+        margin-left: 15px; 
     }
 
 
@@ -271,9 +275,9 @@ ul.sub-menu-cate li:hover
 
     .button 
     {
-        margin-top: 4px;
-        margin-bottom: 10px;
-        padding: 12px 12px ;
+        margin: 50px 60px;
+        justify-content: center;
+        padding: 25px 30px;
         font-size: 15px;
         height: 20px;
         border-radius:5px;       
@@ -283,8 +287,8 @@ ul.sub-menu-cate li:hover
     {
         font-size: 20px;
         border-radius: 7px;
-        margin-left: 25px;
-        margin-right: 25px; 
+        margin-left: 15px;
+        margin-right: 15px; 
         text-align :center; 
     }
 

@@ -1,0 +1,141 @@
+body 
+{
+    background: url(../images/about_uswallpaper.jpg);
+}
+
+.title-about
+{
+    font-size: 6vw;
+    text-align: center;
+    display: block;
+    margin-top: 5vw;
+    color: #ffffff;
+}
+
+.team-body
+{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    color: black;
+    max-width: 100%;
+    background:#f8f8f8;
+    overflow: hidden;
+    margin: 10vw 12vw 10vw 12vw ;
+    align-items: center;
+    border-radius: 5vw;
+    box-shadow: 0 1vw 2vw 0 rgba(0,0,0,.25);
+    text-align: center;
+}
+
+.pic
+{
+    grid:1/2;
+    color: black;
+    background: pink;
+    padding: 5vw;
+}
+
+.pic img 
+{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.pic:hover
+{
+    background:plum; 
+}
+
+.name
+{
+    font-size: 5vw;
+    font-weight:bold;
+    padding: 3vw;
+    color: black;
+    border-bottom:1px solid black; 
+}
+
+.info-member
+{
+    display: block;
+    word-break: break-all;
+    grid:2/3;
+    font-size: 4vw;
+    margin: 2vw 8vw 2vw;
+    text-align: left;
+    border-bottom: 1px solid black;
+
+}
+
+.info-icon
+{
+    font-size: 5vw; 
+}
+
+.logo
+{
+    grid: 3/4;
+    margin: 0vw 5vw 3vw 5vw;
+    font-size: 7vw;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .title-about
+    {
+        margin-top: 20px;
+        font-size: 30px;
+
+    }
+    
+    .team-box
+    {
+        display: flex;
+        margin: 30px 50px 20px 50px;
+        max-width: 100%;
+    }
+
+    .team-body
+    {
+        margin: 4px 50px 30px 50px; 
+    }
+
+    .pic
+    {
+        padding: 10px;
+
+    }
+
+    .pic img 
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+    .name
+    {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .info-member
+    {
+        margin-top: 5px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px; 
+        padding: 10px;
+    }
+
+    .info-icon
+    {
+        font-size: 30px;
+    }
+
+    .logo
+    {
+        font-size: 40px;
+        padding: 1px;
+    }
+}

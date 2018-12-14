@@ -38,7 +38,7 @@
 .sub-menu
 {
     display: grid;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
 }
 
 .sub-menu a

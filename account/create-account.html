@@ -9,28 +9,33 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style/create-account.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="../Images/gamehublogo.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
+    <script src="script/validate.js"></script>
 </head>
 <body>
         <div class="wrapper">
-                <form class="form-create">   
-                  <a href="#" target="_blank" ><img class="logo" src="images/gamehub_createaccount.png" href="#" ></a>                  
-                  <input type="text" id="name"  class="form-control pull-left " name="firstname" placeholder="First Name" area/>
-                  <input type="text" id="name"  class="form-control pull-right" name="lastname" placeholder="Last Name" area/>
+          
+                <form class="form-create" method="GET" id="reg-form">   
+                  <a href="#" target="_blank" ><img class="logo" src="images/gamehub_createaccount.png" href="#" ></a>     
+                  <ul id="message-box"></ul>             
+                  <input type="text" class="form-control pull-left " name="firstname" placeholder="First Name" area/>
+                  <input type="text" class="form-control pull-right" name="lastname" placeholder="Last Name" area/>
 
                   <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />   
 
-                  <input type="tel" class="form-control" name="phonenumber" placeholder="Phone Number" area/>
+                  <input type="tel" id="phonenumber" class="form-control" name="phonenumber" placeholder="Phone Number" area/>
 
-                  <input type="password" class="form-control" name="password" placeholder="Password" required=""/> 
+                  <input type="password" id="password" class="form-control" name="password" placeholder="Password" required=""/> 
 
-                  <input type="password" class="form-control" name="re-password" placeholder="Confirm Password"/>
+                  <input type="password" class="form-control" name="repassword" placeholder="Confirm Password"/>
 
                   <label class="checkbox pull-left">  
-                  <input type="checkbox" id="checkbox" value="remember-me" id="rememberMe" name="rememberMe">
+                  <input type="checkbox" id="checkbox" id="term" name="term">
                   I accept the<a href="#" > Terms of Use </a>  & <a href="#" >Privacy Policy </a>
                   </label>
                   <div class="create-account">
-                    <button class="btn btn-lg btn-success btn-block" type="submit">Sign Up</button>           
+                    <button id="submit-btn" class="btn btn-lg btn-success btn-block" type="submit">Sign Up</button>           
                    </div>                   
               </form>          
             </div>

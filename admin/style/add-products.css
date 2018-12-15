@@ -8,13 +8,13 @@
 }
 .list
 {
-    display: block;
+	display: block;
     grid-column: 1/2;
     color:white;
     font-weight: lighter;
     background: #333;
     border-right: 1.5px solid rgb(75, 75, 75);
-    height: 693px;
+    max-height: 1400px;
     
 
     
@@ -28,7 +28,7 @@
 {
     grid-column: 2/3;
     display:grid;
-    grid-template-rows: 12% auto;
+    grid-template-rows: 90px auto;
     background-image: url("../Images/background.jpg");
    
 }
@@ -65,76 +65,116 @@
     margin: 20px;
     font-weight: 200;
 }
-
-.form-style-9{
-    grid-row: 2/3;
-	width: 550px;
-	background: #FAFAFA;
-	padding: 30px;
-	margin: 50px auto;
-	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
-	border-radius: 10px;
-	border: 6px solid #305A72;
-}
-.form-style-9 ul{
-	padding:0;
-	margin:0;
-	list-style:none;
-}
-.form-style-9 ul li{
-	display: block;
-	margin-bottom: 10px;
-	min-height: 35px;
-}
-.form-style-9 ul li  .field-style{
-	box-sizing: border-box; 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box; 
-	padding: 8px;
-	outline: none;
-	border: 1px solid #B0CFE0;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-
-}.form-style-9 ul li  .field-style:focus{
-	box-shadow: 0 0 5px #B0CFE0;
-	border:1px solid #B0CFE0;
-}
-.form-style-9 ul li .field-split{
-	width: 49%;
-}
-.form-style-9 ul li .field-full{
-	width: 100%;
-}
-.form-style-9 ul li input.align-left{
-	float:left;
-}
-.form-style-9 ul li input.align-right{
-	float:right;
-}
-.form-style-9 ul li textarea{
-	width: 100%;
-	height: 100px;
-}
-.form-style-9 ul li input[type="button"], 
-.form-style-9 ul li input[type="submit"] {
-	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
-	box-shadow: inset 0px 1px 0px 0px #3985B1;
-	background-color: #216288;
-	border: 1px solid #17445E;
-	display: inline-block;
-	cursor: pointer;
-	color: #FFFFFF;
-	padding: 8px 18px;
+.button
+{
+	margin: 0px 7px;
+	text-align:  center;
+    margin-bottom: 9px;
+    padding: 6px 30px;
+    font-size: 19px;
+	border-radius: 5px;
+    cursor: pointer;
+	color:rgb(255, 255, 255);
+	background: rgb(96, 51, 167);
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+	opacity: 0.5;
 	text-decoration: none;
-	font: 12px Arial, Helvetica, sans-serif;
 }
-.form-style-9 ul li input[type="button"]:hover, 
-.form-style-9 ul li input[type="submit"]:hover {
-	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
-	background-color: #28739E;
+.button:hover
+{
+	background: rgb(116, 79, 175);
+	opacity: 1;
 }
-</style>
+.main-btn
+{
+	background: rgb(96, 51, 167);
+	opacity: 1;
+	box-shadow: 5px 4px 15px 0 rgba(0,0,0,0.2);
+}
+
+
+.form-style-2{
+	width: 700px;
+	background: white;
+	margin: 30px auto;
+	padding: 20px 60px;
+	border-radius: 6px;
+	box-shadow: 0 1vw 2vw 0 rgba(0,0,0,.25);
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid rgb(48, 48, 48);
+	margin-bottom: 28px;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.form-style-2 label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-style-2 span.required{
+	color:red;
+}
+.form-style-2 .number-field{
+	width: 40px;
+	text-align: center;
+}
+.form-style-2 input.input-field, .form-style-2 .select-field{
+
+}
+.form-style-2 input.input-field, 
+.form-style-2 .tel-number-field, 
+.form-style-2 .textarea-field, 
+ .form-style-2 .select-field{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px rgb(0, 0, 0);
+	-moz-box-shadow: 1px 1px 4px rgb(0, 0, 0);
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.form-style-2 .input-field:focus, 
+.form-style-2 .tel-number-field:focus, 
+.form-style-2 .textarea-field:focus,  
+.form-style-2 .select-field:focus{
+	border: 1.5px solid rgb(108, 0, 158);
+}
+.form-style-2 .textarea-field{
+	height:100px;
+	width: 48%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	margin-top: 15px;
+	background: rgb(114, 4, 141);
+	cursor: pointer;
+	color: #fff;
+	box-shadow: 1px 1px 4px rgb(0, 0, 0);
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.form-style-2 input[type=submit]:hover{
+	background: rgb(137, 4, 170);
+	color: #fff;
+}
+

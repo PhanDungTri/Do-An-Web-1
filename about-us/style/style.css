@@ -25,6 +25,7 @@ body
     border-radius: 5vw;
     box-shadow: 0 1vw 2vw 0 rgba(0,0,0,.25);
     text-align: center;
+    justify-content: center;
 }
 
 .pic
@@ -87,7 +88,7 @@ body
         margin-top: 20px;
         font-size: 30px;
         text-align: center;
-
+        
     }
     
     .team-box
@@ -102,6 +103,7 @@ body
     .team-body
     {
         margin: 4px 50px 30px 50px; 
+        border-radius: 20px;
     }
 
     .pic
@@ -133,12 +135,13 @@ body
 
     .info-icon
     {
-        font-size: 30px;
+        font-size: 24px;
+        font-weight: bold;
     }
 
     .logo
     {
-        font-size: 40px;
+        font-size: 25px;
         padding: 1px;
     }
 }

@@ -3,6 +3,13 @@ body {
   background:url(../images/loginwallpaper.jpg) ;	
 }
 
+#message-box {
+  display: none;
+  color: red; 
+  text-align: left; 
+  font-size: 15px; 
+  border: 1px solid red;
+}
 
 .wrapper {	
 	margin-top: 80px;

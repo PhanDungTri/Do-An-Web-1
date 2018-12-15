@@ -16,59 +16,6 @@
     height: 5vw;
 }
 
-.cate-menu > ul
-{
-    background-color: #762C8E;
-    color: #ffffff;
-    font-size: 3.5vw;
-    border-radius: 3vw;
-    margin-left: 2vw;
-    margin-right: 2vw; 
-    box-shadow: 0 1vw 2vw 0 rgba(0,0,0,.25); 
-}
-
-.cate-menu > ul > li
-{
-    list-style-type: none;
-    display: inline-block;
-    padding: 2vw 5vw 2vw 5vw;
-    position: relative;
-}
-
-.cate-menu > ul > li:hover
-{
-    background-color: #3B1647; 
-}
-
-ul.sub-menu-cate
-{
-    position: absolute;
-    background-color: rgb(143, 57, 172); 
-    list-style-type: none;
-    width: 30vw;
-    padding-left: 0vw; 
-    margin-left: -5vw;
-    margin-top: 2vw;
-    opacity: 0; 
-}
-
-ul.sub-menu-cate li
-{
-    padding-left: 5vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-}
-
-.cate-menu li:hover .sub-menu-cate
-{
-    opacity: 1;
-}
-
-ul.sub-menu-cate li:hover
-{
-    background-color: #762C8E; 
-}
-
 .list   
 {
     display: grid;

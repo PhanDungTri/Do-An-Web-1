@@ -1,0 +1,42 @@
+.wrapper
+{
+	display:grid;
+	grid-template-rows: auto auto;
+}
+.search-bar
+{
+	margin-left: 5px;
+	padding:15px;
+	grid-row: 1/2;
+}
+.container
+{
+	grid-row: 2/3;
+    width: 100%;
+    padding-top:10px;
+}
+.submit-btn
+{
+    border: none;
+    padding: 5px 8px;
+    margin-left: 5px;
+	background: rgb(185, 16, 16);
+	cursor: pointer;
+	color: #fff;
+	box-shadow: 1px 1px 4px rgb(0, 0, 0);
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+}
+.form-control
+{
+	margin: 5px 20px !important;
+}
+.form-group
+{
+	padding-left: 20px;
+}
+.grey
+{
+	background: rgb(230, 230, 230);
+}

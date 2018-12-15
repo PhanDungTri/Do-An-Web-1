@@ -68,7 +68,7 @@
 }
 .button
 {
-    width: 100px;
+    width: 60px;
     justify-content: center;
 	text-align:  center;
     margin:10px 9px;
@@ -77,17 +77,27 @@
 	border-radius: 5px;
     cursor: pointer;
 	color:rgb(255, 255, 255);
-	background: rgb(140, 43, 231);
+	background:rgb(127, 94, 202); 
 	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
 	text-decoration: none;
 }
 
-.red 
+.grey
 {
-    background: rgb(243, 41, 41);
+    background: rgb(82, 82, 82);
+    text-decoration: none;
 }
-.
+
+
 .button:hover
 {
-    background: rgb(170, 90, 245); 
+    background: rgb(104, 60, 209); 
+}
+.grey:hover
+{
+    background: rgb(44, 44, 44); 
+}
+.button-wrapper a
+{
+    text-decoration: none;
 }

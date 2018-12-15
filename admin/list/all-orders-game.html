@@ -5,12 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../style/table-style.css">
+  <link rel="stylesheet" href="../style/orders-style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
+<div class="wrapper">
+  <div class="search-bar">  
+      <form class="form-inline" action="#">
+        <div class="form-group">
+          <label for="from">From: </label>
+          <input type="datetime-local" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="to">To: </label>
+          <input type="datetime-local" class="form-control" id="pwd">
+        </div>
+          <button type="submit" class="btn grey">Search</button>
+      </form>
 <div class="container">
     <table class="table table-hover">
         <thead>
@@ -100,6 +113,6 @@
         </tbody>
       </table>
 </div>
-
+</div>
 </body>
 </html>

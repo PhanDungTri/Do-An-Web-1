@@ -61,7 +61,7 @@
 {
     grid-row: 1/2;
     display:grid;
-    grid-template-rows: auto auto;
+    grid-template-rows: 95px auto;
 }
 .sale-dashboard-title
 {
@@ -113,4 +113,30 @@
     border-radius: 2px;
     height: 300px;;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+.button
+{
+	margin: 0px 7px;
+	text-align:  center;
+    margin-bottom: 9px;
+    padding: 6px 30px;
+    font-size: 19px;
+	border-radius: 5px;
+    cursor: pointer;
+	color:rgb(255, 255, 255);
+	background: rgb(96, 51, 167);
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+	opacity: 0.5;
+	text-decoration: none;
+}
+.button:hover
+{
+	background: rgb(116, 79, 175);
+	opacity: 1;
+}
+.main-btn
+{
+	background: rgb(96, 51, 167);
+	opacity: 1;
+	box-shadow: 5px 4px 15px 0 rgba(0,0,0,0.2);
 }

@@ -77,37 +77,53 @@
     </header>
     <div class="body">
             <div class="list">
-                <a class="list-box" href="#">Dashboard</a>
-                <a class="list-box main" href="#">Add Product</a>
-                <a class="list-box" href="#">Remove Product</a>
-                <a class="list-box" href="#"> Edit Product</a>
+                <a class="list-box" href="dashboard.html">Dashboard</a>
+                <a class="list-box main" href="add-game.html">Add Product</a>
+                <a class="list-box" href="remove-game.html">Remove/<br>Edit Product</a>
                 <a class="list-box" href="#">Orders</a>
             </div>
             <div class="info">
-               <div class="add-product-title">Add product</div>
-                    <form class="form-style-9">
-                        <ul>
-                        <li>
-                            <input type="text" name="ID" class="field-style field-split align-left" placeholder="Product ID" />
-                           <input type="text" name="Name" class="field-style field-split align-right" placeholder="Product Name" />
-                           
-                        
-                        </li>
-                        <li>
-                            <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
-                            <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
-                        </li>
-                        <li>
-                        <input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
-                        </li>
-                        <li>
-                        <textarea name="field5" class="field-style" placeholder="Message"></textarea>
-                        </li>
-                        <li>
-                        <input type="submit" value="Send Message" />
-                        </li>
-                        </ul>
-                        </form>
+               <div class="add-product-title"> 
+                Choose product to add: 
+                <a href="add-game.html" class="button game main-btn">Game</a>
+                <a href="add-card.html" class="button card">Card</a>
+            </div>
+               <div class="form-wrapper">
+               <div class="form-style-2">
+                    <div class="form-style-2-heading">Fill this form to add a Game</div>
+                    <form action="" method="post">
+                    <label for="field1"><span>ID <span class="required">*</span></span><input type="text" class="input-field" name="field1" value=""   size="50" /></label>
+                    <label for="field2"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" size="50"  /></label>
+                    <label for="field3"><span>Price <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+                    <label for="field5"><span>Quantity <span class="required">*</span></span><input type="text" class="input-field" name="field1" size="20"  /></label>
+                    <label for="field5"><span>Genre</span><select name="field5" class="select-field">
+                            <option value="Action">Action</option>
+                            <option value="Action Adventure">Action Adventure</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Simulation">Simulation</option>
+                            <option value="Strateg">Strategy</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Role Playing">Role Playing</option>
+                    </select></label>
+
+                    <label for="field6"><span>Flatform</span><select name="field6" class="select-field">
+                            <option value="Steam">Steam</option>
+                            <option value="Origin">Origin</option>
+                            <option value="Uplay">Uplay</option>
+                            <option value="Battlenet">Battlenet</option>
+                    </select></label>
+                    <label for="field5"><span>Details <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+                    <label for="field5"><span>Description <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+                    <label for="field5"><span>System required <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+                    <label for="field1"><span>Import photo <span class="required">*</span></span><input type="file" name="pic" accept="image/*" name="field1" value="" /> <input type="file" name="pic" accept="image/*" name="field1" value="" /> 
+                    <input type="file" name="pic" accept="image/*" name="field1" value="" /> <input type="file" name="pic" accept="image/*" name="field1" value="" /> </label>
+                    
+                    <label><span> </span><input type="submit" value="Submit"/> </label>
+                    
+                    
+                    </form>
+                    </div>
+                </div>
             </div>
          </div>
     <!--Footer-->

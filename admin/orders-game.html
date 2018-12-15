@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="../images/gamehublogo.png"/>
     <link rel="stylesheet" type="text/css" media="screen" href="../style/header.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/remove-product.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style/new-orders.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../style/footer.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../style/burger-menu.css" />
@@ -77,46 +77,22 @@
     </header>
     <div class="body">
             <div class="list">
-                <a class="list-box main" href="dashboard-game.html">Dashboard</a>
+                <a class="list-box" href="dashboard-game.html">Dashboard</a>
                 <a class="list-box" href="add-game.html">Add Product</a>
                 <a class="list-box" href="remove-game.html">Remove/<br>Edit Product</a>
-                <a class="list-box" href="#">Orders</a>
-                </div>
+                <a class="list-box  main" href="orders-game.html">Orders</a>
+            </div>
             <div class="info">
-                <div class="sale-dashboard-wrapper">
-                    <div class="sale-dashboard-title">
-                        Sales Dashboard
-                        <a href="dashboard-game.html" class="button game">Game</a>
-                        <a href="dashboard-card.html" class="button card main-btn">Card</a>
-                    </div>
-                    <div class="sale-dashboard">
-                        <div class="dashboard-box">
-                            <div class="dashboard-text">PRODUCTS SOLD</div>
-                            <div class="dashboard-number">25</div>
-                        </div>
-                        <div class="dashboard-box">
-                            <div class="dashboard-text">GROSS PROFIT</div>
-                            <div class="dashboard-number">$36</div>
-                        </div>
-                        <div class="dashboard-box">
-                            <div class="dashboard-text">NEW CUSTOMERS</div>
-                            <div class="dashboard-number">12</div>
-                        </div>
-                        
-                        
-                    </div>
+               <div class="remove-product-title">Remove Product
+                    <a href="remove-game.html" class="button game main-btn">Game</a>
+                <a href="remove-card.html" class="button card">Card</a>
+               </div>
+               <div class="table-wrapper">
+                    <iframe src="list/all-orders-game.html" frameBorder="0" border-radius= "17px" height="100%" width="100%"></iframe>
                 </div>
-                 <div class="new-orders">
-                        <div class="sale-dashboard-title">
-                                New Orders
-                            </div>
-                        <div class="table-wrapper">
-                            <iframe src="list/new-orders-card.html" height="100%" width="100%" frameBorder="0"></iframe>
-                        </div>
-                 </div>
+             </div>
             </div>
          </div>
-    </div>
     <!--Footer-->
 
 </body>

@@ -1,0 +1,110 @@
+.body
+{
+    justify-content: center;
+}
+
+.wrapper
+{
+    display:block;
+    padding: 20px 12px;
+}
+
+.details img
+{
+    width: 150px;
+}
+.title-top
+{
+    text-align: center;
+    font-size: 19pt;
+    border-block-end: 1px solid black;
+    padding-bottom: 10px;
+    font-weight: 600;
+
+}
+.products
+{
+    grid-column: 2/3;
+    text-align: center;
+    font-weight: 400;
+    grid-template-rows: auto auto auto auto;
+    display: grid;
+}
+
+.edit-line
+{
+    display: grid;
+    margin: 0px 25px;
+    grid-template-columns: 15% 70% 15%;
+    border-block-end: 1px solid rgb(204, 204, 204);
+    padding: 10px;
+    cursor: pointer;
+}
+.edit-line:hover
+{
+   background: rgb(238, 237, 237);
+}
+
+.keyword
+{
+    grid-column: 1/2;
+    font-weight: 600;
+
+}
+
+.details
+{
+    grid-column: 2/3;
+    text-align: center;
+    font-weight: 400;
+}
+
+.edit-btn
+
+{
+    grid-column: 3/4;
+    text-align: right;
+}
+.edit-btn:hover
+
+{
+   text-decoration: underline;
+}
+.button-wrapper
+{
+ display:flex;
+ padding: 25px 40%;
+}
+.button-wrapper a
+{
+    text-decoration: none;
+}
+.button
+{
+    width: 60px;
+    justify-content: center;
+	text-align:  center;
+    margin:10px 9px;
+    padding: 6px 20px;
+    font-size: 17px;
+	border-radius: 5px;
+    cursor: pointer;
+	color:rgb(255, 255, 255);
+	background:rgb(127, 94, 202); 
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+	text-decoration: none;
+}
+
+.grey
+{
+    background: rgb(82, 82, 82);
+}
+
+.button:hover
+{
+    background: rgb(93, 45, 206); 
+}
+.grey:hover
+{
+    background: rgb(44, 44, 44); 
+}

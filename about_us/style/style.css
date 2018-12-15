@@ -9,7 +9,7 @@ body
     text-align: center;
     display: block;
     margin-top: 5vw;
-    color: #ffffff;
+    color: rgb(238, 238, 238);
 }
 
 .team-body
@@ -18,7 +18,7 @@ body
     grid-template-rows: auto auto auto;
     color: black;
     max-width: 100%;
-    background:#f8f8f8;
+    background:#ffffff;
     overflow: hidden;
     margin: 10vw 12vw 10vw 12vw ;
     align-items: center;
@@ -32,7 +32,7 @@ body
 {
     grid:1/2;
     color: black;
-    background: pink;
+    background: rgb(255, 249, 249);
     padding: 5vw;
 }
 
@@ -54,7 +54,6 @@ body
     font-weight:bold;
     padding: 3vw;
     color: black;
-    border-bottom:1px solid black; 
 }
 
 .info-member
@@ -91,6 +90,33 @@ body
         
     }
     
+    .wrapper
+    {
+        display:grid;
+        grid-template-rows: 90% 10%;
+    }
+    .back-home
+    {
+        grid-row: 2/3;
+        font-size: 18pt;  
+        padding-left:100px;
+        
+    }
+    
+    .back-home a 
+    {
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
+        padding:9px;
+        border-radius: 8px;
+    }
+    .back-home a:hover
+    {
+        color:rgb(255, 183, 183);
+        border: 3px solid rgb(255, 183, 183);
+    }
+
     .team-box
     {
         display: flex;
@@ -98,12 +124,13 @@ body
         max-width: 100%;
         align-items: center;
         text-align: center;
+        grid-row:1/2;
     }
 
     .team-body
     {
         margin: 4px 50px 30px 50px; 
-        border-radius: 20px;
+        border-radius: 16px;
     }
 
     .pic
@@ -114,13 +141,14 @@ body
 
     .pic img 
     {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 
     .name
     {
-        font-size: 30px;
+        font-size: 26px;
+        font-weight: lighter;
         padding: 10px;
     }
 
@@ -135,8 +163,8 @@ body
 
     .info-icon
     {
-        font-size: 24px;
-        font-weight: bold;
+        font-size: 16px;
+        padding-left:7%;
     }
 
     .logo

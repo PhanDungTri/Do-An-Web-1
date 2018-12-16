@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>All Orders of Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style/orders-style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="search-bar">  
+      <form class="form-inline" action="#">
+        <div class="form-group">
+          <label for="from">From: </label>
+          <input type="datetime-local" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="to">To: </label>
+          <input type="datetime-local" class="form-control" id="pwd">
+        </div>
+          <button type="submit" class="btn grey">Search</button>
+      </form>
+<div class="container">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Receipt ID</th>
+            <th scope="col">Price</th>
+            <th scope="col">Payment</th>
+            <th scope="col">Customer info</th>
+            <th scope="col">Time</th>
+            <th scope="col">State</th>
+            <th scope="col"></th> 
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">001</th>
+            <td>$15.00</td>
+            <td>Credits card</td>
+            <td>Vu Nguyen</td>
+            <td>25/12/2018 19:52:12</td>
+            <td>Processing</td>
+            <td><a href="../details/all-orders-info.html"><button type="button" class="btn btn-primary">Info</button></a></td>
+          </tr>
+          <tr>
+            <th scope="row">005</th>
+            <td>$15.00</td>
+            <td>Credits card</td>
+            <td>Vu Nguyen</td>
+            <td>25/12/2018 19:52:12</td>
+            <td>On list</td>
+            <td><a href="../details/all-orders-info.html"><button type="button" class="btn btn-primary">Info</button></a></td>
+          </tr>
+          <tr>
+            <th scope="row">007</th>
+            <td>$15.00</td>
+            <td>Credits card</td>
+            <td>Vu Nguyen</td>
+            <td>25/12/2018 19:52:12</td>
+            <td>Processing</td>
+            <td><a href="../details/all-orders-info.html"><button type="button" class="btn btn-primary">Info</button></a></td>
+          </tr>
+          <tr>
+            <th scope="row">008</th>
+            <td>$15.00</td>
+            <td>Credits card</td>
+            <td>Vu Nguyen</td>
+            <td>25/12/2018 19:52:12</td>
+            <td>Processing</td>
+             <td><a href="../details/all-orders-info.html"><button type="button" class="btn btn-primary">Info</button></a></td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div>
+</body>
+</html>

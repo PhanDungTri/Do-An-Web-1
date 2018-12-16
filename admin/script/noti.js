@@ -11,4 +11,8 @@ $(document).ready(() => {
             alert("Information saved!");
         }
     });
+    $(".edit-bar").slideUp("fast");
+    $(".edit-btn").click(function() {
+        $(this).next().slideDown("fast");
+    });
 });
